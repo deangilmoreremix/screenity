@@ -58,6 +58,8 @@ if (process.env.SCREENITY_SKIP_ENV) {
 }
 
 // Entry points for the different pages
+const OUT_DIR = process.env.SCREENITY_WEB_BUILD ? "build-web" : "build";
+
 const entryPoints = {
   background: path.join(__dirname, "src", "pages", "Background", "index.js"),
   contentScript: path.join(__dirname, "src", "pages", "Content", "index.jsx"),
@@ -69,6 +71,10 @@ const entryPoints = {
     "bridgeContentScript.js"
   ),
   web: path.join(__dirname, "src", "pages", "Web", "index.jsx"),
+  webbackground: {
+    import: path.join(__dirname, "src", "pages", "Web", "webbackground.js"),
+    chunkLoading: "import-scripts",
+  },
   recorder: path.join(__dirname, "src", "pages", "Recorder", "index.jsx"),
   recorderkeepalive: path.join(
     __dirname,
@@ -139,6 +145,18 @@ if (isBsBuild) {
   );
 }
 
+if (process.env.SCREENITY_WEB_BUILD) {
+  // Every extension page runs the chrome.* emulation first (frames find the hub in the host window).
+  const shim = path.join(__dirname, "src", "pages", "Web", "emu", "install.js");
+  const noShim = new Set(["web", "webbackground", "background", "contentScript", "smartvidbridge", "remuxworker", "recorderopfsworker", "recorderkeepalive"]);
+  for (const k of ["background", "contentScript", "cloudrecorder", "smartvidbridge"]) delete entryPoints[k];
+  for (const k of Object.keys(entryPoints)) {
+    if (noShim.has(k)) continue;
+    const v = entryPoints[k];
+    entryPoints[k] = typeof v === "string" ? [shim, v] : { ...v, import: [shim, v.import] };
+  }
+}
+
 if (process.env.SCREENITY_ONLY) {
   const keep = new Set(process.env.SCREENITY_ONLY.split(","));
   for (const k of Object.keys(entryPoints)) if (!keep.has(k)) delete entryPoints[k];
@@ -149,6 +167,7 @@ const htmlPlugins = Object.keys(entryPoints)
     // Skip background script and worker bundles; they have no HTML page.
     if (
       entryName === "background" ||
+      entryName === "webbackground" ||
       entryName === "contentScript" ||
       entryName === "smartvidbridge" ||
       entryName === "remuxworker" ||
@@ -240,11 +259,12 @@ const config = {
     // chrome rejects extension files starting with "_". force a "chunk."
     // prefix so webpack's default _f608.bundle.js etc. don't trip it.
     chunkFilename: "chunk.[name].[contenthash:8].bundle.js",
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, OUT_DIR),
     // Clean one-shot builds so a dev build after a prod build can't mix stale
     // artifacts. Only the hot-reload server skips the 40MB asset re-copy.
     clean: !(isDev && process.env.WEBPACK_SERVE),
-    publicPath: ASSET_PATH,
+    publicPath: process.env.SCREENITY_WEB_BUILD ? "auto" : ASSET_PATH,
+    globalObject: "self",
   },
   module: {
     rules: [
@@ -262,7 +282,13 @@ const config = {
         test: /\.(css|scss)$/,
         use: [
           { loader: "style-loader" },
-          { loader: "css-loader" },
+          {
+            loader: "css-loader",
+            // Web build: asset URLs rewritten from chrome-extension:// stay plain relative URLs.
+            options: process.env.SCREENITY_WEB_BUILD
+              ? { url: { filter: (u) => !/^assets\//.test(u) } }
+              : {},
+          },
           {
             loader: "sass-loader",
             options: { sourceMap: true },
@@ -339,7 +365,7 @@ const config = {
       patterns: [
         {
           from: "src/manifest.json",
-          to: path.join(__dirname, "build"),
+          to: path.join(__dirname, OUT_DIR),
           force: true,
           transform: (content) => {
             const manifest = {
@@ -368,12 +394,12 @@ const config = {
         },
         {
           from: "src/schema.json",
-          to: path.join(__dirname, "build/schema.json"),
+          to: path.join(__dirname, OUT_DIR, "schema.json"),
           force: true,
         },
         {
           from: "src/assets/",
-          to: path.join(__dirname, "build/assets"),
+          to: path.join(__dirname, OUT_DIR, "assets"),
           force: true,
           filter: isBsBuild
             ? (resourcePath) =>
@@ -384,19 +410,19 @@ const config = {
         },
         {
           from: "src/_locales/",
-          to: path.join(__dirname, "build/_locales"),
+          to: path.join(__dirname, OUT_DIR, "_locales"),
           force: true,
         },
         // AudioWorklet modules load by URL and run without the webpack
         // runtime, so this one is copied rather than bundled.
         {
           from: "src/pages/Recorder/audioGapWorklet.js",
-          to: path.join(__dirname, "build/audioGapWorklet.js"),
+          to: path.join(__dirname, OUT_DIR, "audioGapWorklet.js"),
           force: true,
         },
         {
           from: "THIRD_PARTY_NOTICES.md",
-          to: path.join(__dirname, "build/THIRD_PARTY_NOTICES.md"),
+          to: path.join(__dirname, OUT_DIR, "THIRD_PARTY_NOTICES.md"),
           force: true,
         },
       ],

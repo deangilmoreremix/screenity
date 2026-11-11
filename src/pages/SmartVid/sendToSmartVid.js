@@ -43,7 +43,27 @@ const findOrOpenEditorTab = async () => {
   return tab.id;
 };
 
+// Web build: this page is (inside) the SmartVid editor's page, so hand the recording to it directly.
+async function sendFromWeb(blob, { name, duration, mode }) {
+  const id = `rec-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  const target = window.top || window.parent || window;
+  await new Promise((resolve, reject) => {
+    const timer = setTimeout(() => { window.removeEventListener("message", onAck); reject(new Error("SmartVid editor did not confirm the recording")); }, 60000);
+    const onAck = (e) => {
+      const d = e.data;
+      if (d && d.source === "smartvid-editor" && d.type === "recording-received" && d.id === id) {
+        clearTimeout(timer); window.removeEventListener("message", onAck); resolve();
+      }
+    };
+    window.addEventListener("message", onAck);
+    target.postMessage({ source: "smartvid-extension", type: "recording", id, blob, name: name || "Screen Recording", duration, mode: mode || "screen" }, location.origin);
+    // Standalone page (no embedding editor): nobody acks, so just finish.
+    if (target === window) { clearTimeout(timer); window.removeEventListener("message", onAck); resolve(); }
+  });
+}
+
 export async function sendToSmartVid(blob, { name, duration, mode } = {}) {
+  if (chrome.runtime.id === "smartvid-web-recorder") return sendFromWeb(blob, { name, duration, mode });
   const tabId = await findOrOpenEditorTab();
   if (!(await waitForBridge(tabId))) {
     throw new Error("Could not reach the SmartVid editor tab");

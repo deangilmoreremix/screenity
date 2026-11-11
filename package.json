@@ -34,7 +34,8 @@
     "test:unit": "node --test tests/unit/*.test.mjs",
     "test:e2e": "playwright test --config tests/playwright.config.ts",
     "test:e2e:fast": "SCREENITY_E2E_HEADLESS=1 playwright test --config tests/playwright.config.ts",
-    "check:source": "node scripts/check-source-hygiene.mjs"
+    "check:source": "node scripts/check-source-hygiene.mjs",
+    "build:web": "cross-env NODE_ENV=production SCREENITY_WEB_BUILD=1 SCREENITY_SKIP_ENV=true node utils/build.js"
   },
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.27.1",
