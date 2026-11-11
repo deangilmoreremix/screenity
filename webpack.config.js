@@ -271,7 +271,7 @@ const config = {
       ...(process.env.SCREENITY_WEB_BUILD
         ? [
             {
-              test: /\.(jsx?|tsx?|s?css)$/,
+              test: /\.(jsx?|tsx?|s?css|html)$/,
               enforce: "pre",
               exclude: /node_modules/,
               use: path.resolve(__dirname, "utils", "web-url-loader.js"),

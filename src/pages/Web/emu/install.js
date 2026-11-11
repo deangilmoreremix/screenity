@@ -65,7 +65,21 @@ function installInPage() {
   };
   window.chrome = createChrome(transport);
   window.addEventListener("pagehide", () => hub.unregister(ctxId));
+  registerFonts(window.chrome);
   return window.chrome;
+}
+
+// Upstream references its fonts as chrome-extension://<id>/assets/fonts/..., which a web page can't load.
+// Register them from the real base URL instead (document fonts are also used inside shadow roots).
+function registerFonts(chrome) {
+  if (typeof FontFace === "undefined" || !document.fonts) return;
+  const fonts = [["Satoshi-Light", "Satoshi-Light.ttf"], ["Satoshi-Medium", "Satoshi-Medium.ttf"], ["Satoshi-Bold", "Satoshi-Bold.ttf"], ["Gloria-Hallelujah", "GloriaHallelujah-Regular.ttf"]];
+  for (const [family, file] of fonts) {
+    try {
+      const face = new FontFace(family, `url(${chrome.runtime.getURL(`assets/fonts/${file}`)})`);
+      face.load().then((f) => document.fonts.add(f)).catch(() => {});
+    } catch (_) { /* font is cosmetic */ }
+  }
 }
 
 install();

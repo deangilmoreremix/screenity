@@ -1,6 +1,12 @@
 // Starts the background Worker and simulates the extension lifecycle for the host page.
 const hub = window.__chromeHub;
 
+// Embedded in the SmartVid editor: let the editor's panel show through instead of the standalone page background.
+if (window.parent !== window) {
+  document.documentElement.style.background = "transparent";
+  document.body.style.background = "transparent";
+}
+
 // Pages the extension would open in a browser tab (permissions, first steps, editor...)
 // appear as a full-window overlay instead.
 window.__smartvidShowFrame = (frame, ctl) => {
