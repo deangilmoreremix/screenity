@@ -63,6 +63,7 @@ async function sendFromWeb(blob, { name, duration, mode }) {
 }
 
 export async function sendToSmartVid(blob, { name, duration, mode } = {}) {
+  duration = Number.isFinite(Number(duration)) && Number(duration) > 0 ? Number(duration) : null; // Infinity for headerless WebM
   if (chrome.runtime.id === "smartvid-web-recorder") return sendFromWeb(blob, { name, duration, mode });
   const tabId = await findOrOpenEditorTab();
   if (!(await waitForBridge(tabId))) {
