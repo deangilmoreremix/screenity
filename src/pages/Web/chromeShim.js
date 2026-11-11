@@ -61,6 +61,7 @@ export function installChromeShim({ log = false } = {}) {
   const onStorageChanged = makeEvent();
   const onMessage = makeEvent();
   const unhandled = [];
+  const history = [];
 
   const messageBus = {
     // Deliver to every listener; resolve with the first sendResponse value (like Chrome).
@@ -91,6 +92,7 @@ export function installChromeShim({ log = false } = {}) {
     sendMessage(...args) {
       const cb = typeof args[args.length - 1] === "function" ? args.pop() : null;
       const msg = args.length > 1 ? args[1] : args[0];
+      history.push(msg?.type);
       if (log) console.debug("[bus] →", msg?.type, msg);
       const p = messageBus.dispatch(msg, { id: runtime.id, url: location.href, tab: { id: 1, url: location.href, active: true } });
       return cb ? (p.then(cb), undefined) : p;
@@ -172,6 +174,6 @@ export function installChromeShim({ log = false } = {}) {
   };
 
   window.chrome = chromeShim;
-  window.__chromeShim = { messageBus, unhandled };
+  window.__chromeShim = { messageBus, unhandled, history };
   return chromeShim;
 }

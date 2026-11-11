@@ -17,6 +17,11 @@ on("sync-recording-state", async () => {
   };
 });
 
+// Web: nothing to grant at the extension level; the browser prompts at getDisplayMedia time.
+on("check-capture-permissions", () => ({ status: "ok" }));
+on("unsaved-retained-recording", () => ({ unsaved: false }));
+on("background-effects-inactive", () => ({}));
+
 const seen = new Set();
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   const h = msg && handlers[msg.type];
