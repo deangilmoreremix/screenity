@@ -1848,25 +1848,25 @@ export const setupHandlers = () => {
         ? message.source
         : "extension";
     return createTab(
-      `https://screenity.io/?ref=${encodeURIComponent(source)}`,
+      `https://smartvid.example)}`,
       true,
     );
   });
   registerMessage("open-processing-info", () =>
     createTab(
-      "https://help.screenity.io/editing-and-exporting/dJRFpGq56JFKC7k8zEvsqb/why-is-there-a-5-minute-limit-for-editing/ddy4e4TpbnrFJ8VoRT37tQ",
+      "https://smartvid.example/help",
       true,
     ),
   );
   registerMessage("upgrade-info", () =>
     createTab(
-      "https://help.screenity.io/getting-started/77KizPC8MHVGfpKpqdux9D/what-are-the-technical-requirements-for-using-screenity/6kdB6qru6naVD8ZLFvX3m9",
+      "https://smartvid.example/help",
       true,
     ),
   );
   registerMessage("trim-info", () =>
     createTab(
-      "https://help.screenity.io/editing-and-exporting/dJRFpGq56JFKC7k8zEvsqb/how-to-cut-trim-or-mute-parts-of-your-video/svNbM7YHYY717MuSWXrKXH",
+      "https://smartvid.example/help",
       true,
     ),
   );
@@ -1875,7 +1875,7 @@ export const setupHandlers = () => {
   );
   registerMessage("chrome-update-info", () =>
     createTab(
-      "https://help.screenity.io/getting-started/77KizPC8MHVGfpKpqdux9D/what-are-the-technical-requirements-for-using-screenity/6kdB6qru6naVD8ZLFvX3m9",
+      "https://smartvid.example/help",
       true,
     ),
   );
@@ -1884,16 +1884,16 @@ export const setupHandlers = () => {
   registerMessage("pip-started", () => handlePip(true));
   registerMessage("sign-out-drive", (message) => handleSignOutDrive(message));
   registerMessage("open-help", () =>
-    createTab("https://help.screenity.io/", true),
+    createTab("https://smartvid.example/help", true),
   );
   registerMessage("memory-limit-help", () =>
     createTab(
-      "https://help.screenity.io/troubleshooting/9Jy5RGjNrBB42hqUdREQ7W/what-does-%E2%80%9Cmemory-limit-reached%E2%80%9D-mean-when-recording/8WkwHbt3puuXunYqQnyPcb",
+      "https://smartvid.example/help",
       true,
     ),
   );
   registerMessage("open-home", () =>
-    createTab("https://screenity.io/", true),
+    createTab("https://smartvid.example", true),
   );
   registerMessage("report-bug", async (message) => {
     const qs = await supportContextQuery({

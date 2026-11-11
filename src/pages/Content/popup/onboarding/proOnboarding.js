@@ -7,7 +7,7 @@ const CAMERA_KEY = "proCameraInfo";
 const POPOVER_CLASS = "ScreenityOnboardingPopover onboarding-popover";
 const DRIVER_STYLE_ID = "screenity-driver-onboarding-style";
 const TOOLBAR_HELP_URL =
-  "https://help.screenity.io/recording/how-to-hide-the-toolbar";
+  "https://smartvid.example/help";
 const IDLE_START_DELAY_MS = 420;
 
 const STEP_IDS = {

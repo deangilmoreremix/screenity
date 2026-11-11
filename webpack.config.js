@@ -61,6 +61,13 @@ if (process.env.SCREENITY_SKIP_ENV) {
 const entryPoints = {
   background: path.join(__dirname, "src", "pages", "Background", "index.js"),
   contentScript: path.join(__dirname, "src", "pages", "Content", "index.jsx"),
+  smartvidbridge: path.join(
+    __dirname,
+    "src",
+    "pages",
+    "SmartVid",
+    "bridgeContentScript.js"
+  ),
   recorder: path.join(__dirname, "src", "pages", "Recorder", "index.jsx"),
   recorderkeepalive: path.join(
     __dirname,
@@ -137,6 +144,7 @@ const htmlPlugins = Object.keys(entryPoints)
     if (
       entryName === "background" ||
       entryName === "contentScript" ||
+      entryName === "smartvidbridge" ||
       entryName === "remuxworker" ||
       entryName === "recorderopfsworker" ||
       entryName === "recorderkeepalive"

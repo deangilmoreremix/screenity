@@ -55,7 +55,7 @@ const PopupContainer = (props) => {
   const recordTabRef = useRef(null);
   const videoTabRef = useRef(null);
   const pillRef = useRef(null);
-  const [URL, setURL] = useState("https://help.screenity.io/");
+  const [URL, setURL] = useState("https://smartvid.example/help");
   const isCloudBuild = process.env.SCREENITY_ENABLE_CLOUD_FEATURES === "true";
   const wasCameraActiveRef = useRef(null);
 
@@ -89,7 +89,7 @@ const PopupContainer = (props) => {
 
   useEffect(() => {
     const buildURL = async () => {
-      let baseURL = "https://help.screenity.io/";
+      let baseURL = "https://smartvid.example/help";
 
       if (contentState?.isLoggedIn && contentState?.screenityUser) {
         const { name, email } = contentState.screenityUser;

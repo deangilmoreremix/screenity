@@ -1,6 +1,6 @@
 {
   "reviewAskTitle": {
-    "message": "Bagaimana Screenity buatmu?",
+    "message": "Bagaimana SmartVid buatmu?",
     "description": "Review prompt step 1 question (sentiment check) in the editor"
   },
   "reviewAskGood": {
@@ -16,7 +16,7 @@
     "description": "Review prompt happy-branch title in the editor"
   },
   "reviewThanksDescription": {
-    "message": "Aku Alyssa, satu-satunya pembuat di balik Screenity. Aku membuat versi pertamanya pada 2020, dan sampai sekarang aku masih aktif merawat ekstensi gratis ini.\n\nKalau Screenity membantumu, meninggalkan ulasan singkat adalah salah satu cara terbaik untuk mendukungnya ❤️",
+    "message": "Aku Alyssa, satu-satunya pembuat di balik SmartVid. Aku membuat versi pertamanya pada 2020, dan sampai sekarang aku masih aktif merawat ekstensi gratis ini.\n\nKalau SmartVid membantumu, meninggalkan ulasan singkat adalah salah satu cara terbaik untuk mendukungnya ❤️",
     "description": "Review prompt happy-branch description (founder voice) in the editor. Paragraphs separated by a blank line."
   },
   "reviewThanksButton": {
@@ -32,7 +32,7 @@
     "description": "Review prompt unhappy-branch title in the editor"
   },
   "reviewSorryDescription": {
-    "message": "Aku Alyssa, pembuat Screenity, dan aku membaca setiap pesan sendiri. Ceritakan apa yang salah dan aku akan berusaha sebaik mungkin untuk memperbaikinya.",
+    "message": "Aku Alyssa, pembuat SmartVid, dan aku membaca setiap pesan sendiri. Ceritakan apa yang salah dan aku akan berusaha sebaik mungkin untuk memperbaikinya.",
     "description": "Review prompt unhappy-branch description in the editor"
   },
   "reviewSorryButton": {
@@ -44,7 +44,7 @@
     "description": "Review prompt dismiss button on the unhappy branch"
   },
   "extName": {
-    "message": "Screenity - Perekam Layar & Alat Anotasi",
+    "message": "SmartVid - Perekam Layar & Alat Anotasi",
     "description": "Nama ekstensi"
   },
   "extDesc": {
@@ -92,7 +92,7 @@
     "description": "Judul modal peringatan izin kamera/mikrofon"
   },
   "permissionsModalDescription": {
-    "message": "Sepertinya Screenity tidak dapat mengakses kamera atau mikrofon Anda. Pastikan untuk mengizinkan akses dengan mengklik ikon kamera di bilah alamat.",
+    "message": "Sepertinya SmartVid tidak dapat mengakses kamera atau mikrofon Anda. Pastikan untuk mengizinkan akses dengan mengklik ikon kamera di bilah alamat.",
     "description": "Deskripsi modal peringatan izin kamera/mikrofon"
   },
   "permissionsModalDismiss": {
@@ -112,7 +112,7 @@
     "description": "Modal title shown when the editor cannot read the recording file from the device's storage"
   },
   "opfsLoadErrorDescription": {
-    "message": "Sepertinya Screenity tidak dapat memuat rekaman dari penyimpanan perangkat Anda. Rekaman mungkin telah dihapus atau dipindahkan. Jika ini terus terjadi, hubungi kami di support@screenity.io.",
+    "message": "Sepertinya SmartVid tidak dapat memuat rekaman dari penyimpanan perangkat Anda. Rekaman mungkin telah dihapus atau dipindahkan. Jika ini terus terjadi, hubungi kami di support@smartvid.example.",
     "description": "Modal description shown when the editor cannot read the recording file from the device's storage"
   },
   "recordingWriterFailedToast": {
@@ -552,20 +552,20 @@
     "description": "Tombol Coba lagi label Offline"
   },
   "serverIssueTitle": {
-    "message": "Screenity tidak tersedia",
-    "description": "Title shown when the Screenity API is returning server errors"
+    "message": "SmartVid tidak tersedia",
+    "description": "Title shown when the SmartVid API is returning server errors"
   },
   "serverIssueDescription": {
     "message": "Perekaman cloud tidak tersedia saat ini. Coba lagi sebentar lagi.",
-    "description": "Description shown when the Screenity API is returning server errors"
+    "description": "Description shown when the SmartVid API is returning server errors"
   },
   "serverUnreachableTitle": {
-    "message": "Tidak dapat terhubung ke Screenity",
-    "description": "Title shown when the Screenity API cannot be reached"
+    "message": "Tidak dapat terhubung ke SmartVid",
+    "description": "Title shown when the SmartVid API cannot be reached"
   },
   "serverUnreachableDescription": {
     "message": "Periksa koneksi Anda atau coba lagi sebentar lagi.",
-    "description": "Description shown when the Screenity API cannot be reached"
+    "description": "Description shown when the SmartVid API cannot be reached"
   },
   "updateChromeLabelTitle": {
     "message": "Chrome perlu diperbarui",
@@ -740,11 +740,11 @@
     "description": "Judul modal Perekaman dijeda"
   },
   "chromePermissionsModalTitle": {
-    "message": "Screenity tidak memiliki izin untuk merekam layar Anda",
+    "message": "SmartVid tidak memiliki izin untuk merekam layar Anda",
     "description": "Judul modal Izin"
   },
   "chromePermissionsModalDescription": {
-    "message": "Untuk mengaktifkan perekaman layar, Anda harus memberikan izin kepada Screenity untuk menangkap layar Anda ketika diminta.",
+    "message": "Untuk mengaktifkan perekaman layar, Anda harus memberikan izin kepada SmartVid untuk menangkap layar Anda ketika diminta.",
     "description": "Deskripsi modal Izin"
   },
   "chromePermissionsModalAction": {
@@ -772,7 +772,7 @@
     "description": "Batal modal Mikrofon dimatikan"
   },
   "setupTitle": {
-    "message": "Mulailah dengan Screenity dalam tiga langkah sederhana:",
+    "message": "Mulailah dengan SmartVid dalam tiga langkah sederhana:",
     "description": "Judul langkah pengaturan"
   },
   "setupStep1Before": {
@@ -796,7 +796,7 @@
     "description": "Langkah pengaturan 3, sebelum ikon. Diperlukan spasi di akhir."
   },
   "setupStep3After": {
-    "message": " Screenity untuk memulai",
+    "message": " SmartVid untuk memulai",
     "description": "Langkah pengaturan 3, setelah ikon. Diperlukan spasi di awal."
   },
   "setupCompleteTitle": {
@@ -852,7 +852,7 @@
     "description": "Tombol Hentikan perekaman di layar perekaman"
   },
   "updateAnnouncementTitle": {
-    "message": "Selamat datang di Screenity yang baru!",
+    "message": "Selamat datang di SmartVid yang baru!",
     "description": "Judul pengumuman pembaruan untuk pengguna yang sudah ada"
   },
   "updateAnnouncementDescription": {
@@ -872,7 +872,7 @@
     "description": "Judul modal kesalahan stream"
   },
   "streamErrorModalDescription": {
-    "message": "Sepertinya ada kesalahan saat memulai perekaman. Restart browser Anda dan coba lagi. Jika masalah masih berlanjut, silakan hubungi kami di support@screenity.io.",
+    "message": "Sepertinya ada kesalahan saat memulai perekaman. Restart browser Anda dan coba lagi. Jika masalah masih berlanjut, silakan hubungi kami di support@smartvid.example.",
     "description": "Deskripsi modal kesalahan stream"
   },
   "accountErrorModalTitle": {
@@ -880,11 +880,11 @@
     "description": "Title of the modal shown when a cloud recording is refused because the account has no active subscription"
   },
   "accountErrorModalDescription": {
-    "message": "Screenity tidak dapat memulai rekaman cloud karena akun ini tidak memiliki langganan aktif. Rekaman dan pengaturan Anda aman.",
+    "message": "SmartVid tidak dapat memulai rekaman cloud karena akun ini tidak memiliki langganan aktif. Rekaman dan pengaturan Anda aman.",
     "description": "Body shown when the account has never had an active subscription (server: upgrade_required)"
   },
   "accountErrorModalDescriptionLapsed": {
-    "message": "Screenity tidak dapat memulai rekaman cloud karena akses Pro akun ini telah berakhir. Rekaman dan pengaturan Anda aman.",
+    "message": "SmartVid tidak dapat memulai rekaman cloud karena akses Pro akun ini telah berakhir. Rekaman dan pengaturan Anda aman.",
     "description": "Body shown when the account's subscription has ended (server: reactivate_required)"
   },
   "accountErrorModalAction": {
@@ -896,7 +896,7 @@
     "description": "Title of the modal shown when a cloud recording is refused because the session expired, not the subscription"
   },
   "authErrorModalDescription": {
-    "message": "Screenity tidak dapat memulai rekaman cloud karena sesi ini telah berakhir. Langganan, rekaman, dan pengaturan Anda aman.",
+    "message": "SmartVid tidak dapat memulai rekaman cloud karena sesi ini telah berakhir. Langganan, rekaman, dan pengaturan Anda aman.",
     "description": "Body shown when the session/token failed; the account may well be a paying subscriber"
   },
   "authErrorModalAction": {
@@ -952,7 +952,7 @@
     "description": "Judul Ruang Tidak Cukup"
   },
   "notEnoughSpaceDescription": {
-    "message": "Screenity memerlukan setidaknya 1 GB ruang kosong untuk merekam. Silakan mengosongkan beberapa ruang pada perangkat Anda dan coba lagi.",
+    "message": "SmartVid memerlukan setidaknya 1 GB ruang kosong untuk merekam. Silakan mengosongkan beberapa ruang pada perangkat Anda dan coba lagi.",
     "description": "Deskripsi Ruang Tidak Cukup"
   },
   "clearSpaceButton": {
@@ -984,7 +984,7 @@
     "description": "Judul modal berkas perekaman mentah"
   },
   "rawRecordingModalDescription": {
-    "message": "Berkas video mentah adalah berkas video asli yang direkam oleh Screenity. Video ini tidak diproses atau diedit, sehingga mungkin sangat besar dan mungkin tidak dapat diputar di semua perangkat. Jika Anda mengalami masalah dengan video yang diproses, Anda dapat menggunakan berkas ini untuk memulihkan video Anda.",
+    "message": "Berkas video mentah adalah berkas video asli yang direkam oleh SmartVid. Video ini tidak diproses atau diedit, sehingga mungkin sangat besar dan mungkin tidak dapat diputar di semua perangkat. Jika Anda mengalami masalah dengan video yang diproses, Anda dapat menggunakan berkas ini untuk memulihkan video Anda.",
     "description": "Deskripsi modal berkas perekaman mentah"
   },
   "rawRecordingModalButton": {
@@ -996,7 +996,7 @@
     "description": "Judul modal Penyelesaian Masalah"
   },
   "troubleshootModalDescription": {
-    "message": "Setelah mengunduh, kirim berkas ini ke support@screenity.io dengan informasi relevan. Kami akan menggunakan data ini untuk membantu Anda menyelesaikan masalah dengan ekstensi dan memulihkan video Anda jika memungkinkan.",
+    "message": "Setelah mengunduh, kirim berkas ini ke support@smartvid.example dengan informasi relevan. Kami akan menggunakan data ini untuk membantu Anda menyelesaikan masalah dengan ekstensi dan memulihkan video Anda jika memungkinkan.",
     "description": "Deskripsi modal Penyelesaian Masalah"
   },
   "troubleshootModalButton": {
@@ -1008,11 +1008,11 @@
     "description": "Judul modal batas lebih dari 5 menit"
   },
   "overLimitModalDescription": {
-    "message": "Karena Screenity sepenuhnya privat dan berjalan secara lokal, ia dibatasi oleh perangkat keras perangkat Anda. Memproses video sepanjang ini akan memakan waktu terlalu lama dan sangat intensif dalam penggunaan sumber daya. Jangan khawatir, Anda masih dapat mengunduh file WEBM atau rekaman mentah, tetapi pengeditan dan ekspor ke MP4 tidak tersedia. Namun demikian, Anda masih dapat mencoba memproses video ini jika Anda memahami risikonya.",
+    "message": "Karena SmartVid sepenuhnya privat dan berjalan secara lokal, ia dibatasi oleh perangkat keras perangkat Anda. Memproses video sepanjang ini akan memakan waktu terlalu lama dan sangat intensif dalam penggunaan sumber daya. Jangan khawatir, Anda masih dapat mengunduh file WEBM atau rekaman mentah, tetapi pengeditan dan ekspor ke MP4 tidak tersedia. Namun demikian, Anda masih dapat mencoba memproses video ini jika Anda memahami risikonya.",
     "description": "Deskripsi modal batas lebih dari 5 menit"
   },
   "overLimitModalDescriptionFastPath": {
-    "message": "Karena Screenity sepenuhnya privat dan berjalan secara lokal, ia dibatasi oleh perangkat keras perangkat Anda. Memproses video sepanjang ini akan memakan waktu terlalu lama dan sangat intensif dalam penggunaan sumber daya. MP4 Anda sudah siap untuk diunduh, tetapi pengeditan di browser tidak tersedia untuk klip sepanjang ini. Namun demikian, Anda masih dapat mencoba memproses video ini jika Anda memahami risikonya.",
+    "message": "Karena SmartVid sepenuhnya privat dan berjalan secara lokal, ia dibatasi oleh perangkat keras perangkat Anda. Memproses video sepanjang ini akan memakan waktu terlalu lama dan sangat intensif dalam penggunaan sumber daya. MP4 Anda sudah siap untuk diunduh, tetapi pengeditan di browser tidak tersedia untuk klip sepanjang ini. Namun demikian, Anda masih dapat mencoba memproses video ini jika Anda memahami risikonya.",
     "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)"
   },
   "overLimitModalButton": {
@@ -1054,7 +1054,7 @@
     "description": "Judul Ekstensi Tidak Didukung di Tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "Screenity tidak mendukung di tab sebelumnya Anda. Meskipun begitu, Anda masih bisa memulai perekaman di sini dan kemudian beralih ke tab lain, tetapi kamera dan toolbar Anda tidak akan terlihat.",
+    "message": "SmartVid tidak mendukung di tab sebelumnya Anda. Meskipun begitu, Anda masih bisa memulai perekaman di sini dan kemudian beralih ke tab lain, tetapi kamera dan toolbar Anda tidak akan terlihat.",
     "description": "Deskripsi Ekstensi Tidak Didukung di Tab"
   },
   "backupsDescription1": {
@@ -1308,7 +1308,7 @@
     "description": "Button label to go to the dashboard in the popup"
   },
   "welcomePopupTitle": {
-    "message": "Selamat datang di Screenity",
+    "message": "Selamat datang di SmartVid",
     "description": "Title for the welcome popup shown to new users"
   },
   "welcomePopupDescriptionTop": {
@@ -1368,7 +1368,7 @@
     "description": "Title shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionDescription": {
-    "message": "Langganan Screenity Pro kamu tidak aktif.",
+    "message": "Langganan SmartVid Pro kamu tidak aktif.",
     "description": "Description shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionReactivation": {
@@ -1457,7 +1457,7 @@
   },
   "welcomeProButton": {
     "message": "Buka editor",
-    "description": "Button to sign in to Screenity Pro"
+    "description": "Button to sign in to SmartVid Pro"
   },
   "welcomeProSupport": {
     "message": "Dukung pengembangan oleh pembuat indie tunggal",
@@ -1476,7 +1476,7 @@
     "description": "Pro banner title in the editor"
   },
   "proBannerDescription": {
-    "message": "Screenity akan selalu gratis, open-source, dan tanpa iklan. Pro membantu menutupi biaya cloud & infrastruktur, serta mendukung pengembangan oleh developer indie tunggal! ❤️",
+    "message": "SmartVid akan selalu gratis, open-source, dan tanpa iklan. Pro membantu menutupi biaya cloud & infrastruktur, serta mendukung pengembangan oleh developer indie tunggal! ❤️",
     "description": "Pro banner description in the editor"
   },
   "proBannerAltButton": {
@@ -1508,15 +1508,15 @@
     "description": "Button to upgrade to Pro"
   },
   "hostBannerTitle": {
-    "message": "Menikmati Screenity secara lokal? Bantu dukung pengembangannya!",
+    "message": "Menikmati SmartVid secara lokal? Bantu dukung pengembangannya!",
     "description": "Judul banner self-host di editor"
   },
   "hostBannerDescription": {
-    "message": "Screenity dibuat oleh seorang pengembang indie perempuan. Hosting sendiri gratis, tapi jika kamu merasa terbantu, pertimbangkan untuk mendukung lewat Pro ❤️",
+    "message": "SmartVid dibuat oleh seorang pengembang indie perempuan. Hosting sendiri gratis, tapi jika kamu merasa terbantu, pertimbangkan untuk mendukung lewat Pro ❤️",
     "description": "Deskripsi banner self-host di editor"
   },
   "welcomeBackPopupTitle": {
-    "message": "Selamat datang kembali di Screenity",
+    "message": "Selamat datang kembali di SmartVid",
     "description": "Judul pop-up sambutan yang ditampilkan untuk pengguna yang kembali"
   },
   "welcomeBackProTitle": {
@@ -1524,15 +1524,15 @@
     "description": "Judul fitur penyimpanan cloud di pop-up sambutan"
   },
   "welcomeBackProDescription": {
-    "message": "Screenity Pro adalah platform opsional baru untuk menyimpan video ke cloud, membagikannya lewat tautan, dan membuka alat pengeditan lanjutan — jika dan saat kamu membutuhkannya.",
+    "message": "SmartVid Pro adalah platform opsional baru untuk menyimpan video ke cloud, membagikannya lewat tautan, dan membuka alat pengeditan lanjutan — jika dan saat kamu membutuhkannya.",
     "description": "Deskripsi fitur penyimpanan cloud di pop-up sambutan"
   },
   "welcomeBackProCTA": {
-    "message": "Pelajari lebih lanjut tentang Screenity Pro",
+    "message": "Pelajari lebih lanjut tentang SmartVid Pro",
     "description": "Tombol ajakan bertindak untuk fitur penyimpanan cloud di pop-up sambutan"
   },
   "welcomeToProTitleModal": {
-    "message": "Selamat datang di Screenity Pro",
+    "message": "Selamat datang di SmartVid Pro",
     "description": "Judul modal sambutan Pro"
   },
   "welcomeToProDescriptionModal": {
@@ -1552,7 +1552,7 @@
     "description": "WebCodecs failure auto-disable toast"
   },
   "proOnboardingWelcomeTitle": {
-    "message": "Selamat datang di ekstensi Screenity Pro",
+    "message": "Selamat datang di ekstensi SmartVid Pro",
     "description": "Pro onboarding welcome step title"
   },
   "proOnboardingWelcomeDescription": {
@@ -1696,7 +1696,7 @@
     "description": "Toast shown before the screen picker reopens because system audio could not start and capture is retrying without it"
   },
   "editorRecoveryToast": {
-    "message": "Rekaman Anda tersimpan. Editor tidak terbuka. Klik ikon Screenity untuk mencoba lagi.",
+    "message": "Rekaman Anda tersimpan. Editor tidak terbuka. Klik ikon SmartVid untuk mencoba lagi.",
     "description": "Toast shown on the active tab when the post-recording editor tab fails to open"
   },
   "stopAckTimeoutToast": {
@@ -1739,7 +1739,7 @@
     "message": "Masih menyiapkan rekaman Anda…"
   },
   "editorStuckDescription": {
-    "message": "Screenity membutuhkan waktu lebih lama dari biasanya untuk memuat rekaman Anda. Data Anda mungkin masih tersimpan di perangkat ini. Coba pulihkan, atau hubungi kami jika rekaman tidak kembali."
+    "message": "SmartVid membutuhkan waktu lebih lama dari biasanya untuk memuat rekaman Anda. Data Anda mungkin masih tersimpan di perangkat ini. Coba pulihkan, atau hubungi kami jika rekaman tidak kembali."
   },
   "editorStuckTryRecover": {
     "message": "Coba pulihkan"
@@ -1766,7 +1766,7 @@
     "message": "Rekaman tidak dapat dimulai"
   },
   "recordingFailedModalDescription": {
-    "message": "Sesuatu menghalangi rekaman untuk dimulai. Silakan coba lagi. Jika hal ini terus terjadi, hubungi kami di support@screenity.io."
+    "message": "Sesuatu menghalangi rekaman untuk dimulai. Silakan coba lagi. Jika hal ini terus terjadi, hubungi kami di support@smartvid.example."
   },
   "editAudioTooLargeTitle": {
     "message": "File audio terlalu besar"
@@ -1886,7 +1886,7 @@
     "description": "Modal title when Google Drive authentication expired or was revoked"
   },
   "driveAuthModalDescription": {
-    "message": "Google tidak mengizinkan Screenity untuk masuk. Coba lagi dengan akun Google lain, atau unduh videonya saja. Akun sekolah dan akun kerja bisa memblokir ini.",
+    "message": "Google tidak mengizinkan SmartVid untuk masuk. Coba lagi dengan akun Google lain, atau unduh videonya saja. Akun sekolah dan akun kerja bisa memblokir ini.",
     "description": "Modal description when Google Drive authentication expired or was revoked"
   },
   "emptyRecordingTitle": {

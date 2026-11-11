@@ -2,7 +2,7 @@ import React from "react";
 
 const Announcement = (props) => {
   const URL =
-    "https://help.screenity.io/getting-started/77KizPC8MHVGfpKpqdux9D/what%E2%80%99s-changed-in-the-new-version-of-screenity/bDtvcwAtw9PPesQeNH4zjE";
+    "https://smartvid.example/help";
 
   return (
     <div className="welcome">

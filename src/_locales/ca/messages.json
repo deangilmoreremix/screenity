@@ -1,6 +1,6 @@
 {
   "reviewAskTitle": {
-    "message": "Com et va amb Screenity?",
+    "message": "Com et va amb SmartVid?",
     "description": "Review prompt step 1 question (sentiment check) in the editor"
   },
   "reviewAskGood": {
@@ -16,7 +16,7 @@
     "description": "Review prompt happy-branch title in the editor"
   },
   "reviewThanksDescription": {
-    "message": "Sóc l'Alyssa, la creadora independent que hi ha darrere de Screenity. Vaig fer la primera versió allà pel 2020, i encara avui continuo mantenint activament l'extensió gratuïta.\n\nSi Screenity t'ha ajudat, deixar una ressenya ràpida és una de les millors maneres de donar-li suport ❤️",
+    "message": "Sóc l'Alyssa, la creadora independent que hi ha darrere de SmartVid. Vaig fer la primera versió allà pel 2020, i encara avui continuo mantenint activament l'extensió gratuïta.\n\nSi SmartVid t'ha ajudat, deixar una ressenya ràpida és una de les millors maneres de donar-li suport ❤️",
     "description": "Review prompt happy-branch description (founder voice) in the editor. Paragraphs separated by a blank line."
   },
   "reviewThanksButton": {
@@ -32,7 +32,7 @@
     "description": "Review prompt unhappy-branch title in the editor"
   },
   "reviewSorryDescription": {
-    "message": "Sóc l'Alyssa, la creadora de Screenity, i llegeixo cada missatge jo mateixa. Explica'm què ha anat malament i faré tot el possible per arreglar-ho.",
+    "message": "Sóc l'Alyssa, la creadora de SmartVid, i llegeixo cada missatge jo mateixa. Explica'm què ha anat malament i faré tot el possible per arreglar-ho.",
     "description": "Review prompt unhappy-branch description in the editor"
   },
   "reviewSorryButton": {
@@ -44,7 +44,7 @@
     "description": "Review prompt dismiss button on the unhappy branch"
   },
   "extName": {
-    "message": "Screenity - Grava i Anota la Pantalla",
+    "message": "SmartVid - Grava i Anota la Pantalla",
     "description": "Nom de l'extensió"
   },
   "extDesc": {
@@ -92,7 +92,7 @@
     "description": "Títol del modal d'avís de permisos de càmera / micròfon"
   },
   "permissionsModalDescription": {
-    "message": "Screenity no pot accedir a la teva càmera o micròfon. Permet l'accés fent clic a l'ícona de la càmera a la barra d'adreces.",
+    "message": "SmartVid no pot accedir a la teva càmera o micròfon. Permet l'accés fent clic a l'ícona de la càmera a la barra d'adreces.",
     "description": "Descripció del modal d'avís de permisos de càmera / micròfon"
   },
   "permissionsModalDismiss": {
@@ -112,7 +112,7 @@
     "description": "Modal title shown when the editor cannot read the recording file from the device's storage"
   },
   "opfsLoadErrorDescription": {
-    "message": "Sembla que Screenity no ha pogut carregar la gravació de l'emmagatzematge del teu dispositiu. És possible que s'hagi esborrat o mogut. Si això continua passant, contacta amb nosaltres a support@screenity.io.",
+    "message": "Sembla que SmartVid no ha pogut carregar la gravació de l'emmagatzematge del teu dispositiu. És possible que s'hagi esborrat o mogut. Si això continua passant, contacta amb nosaltres a support@smartvid.example.",
     "description": "Modal description shown when the editor cannot read the recording file from the device's storage"
   },
   "recordingWriterFailedToast": {
@@ -552,20 +552,20 @@
     "description": "Botó de tornar-ho a provar de l'etiqueta sense connexió"
   },
   "serverIssueTitle": {
-    "message": "Screenity no està disponible",
-    "description": "Title shown when the Screenity API is returning server errors"
+    "message": "SmartVid no està disponible",
+    "description": "Title shown when the SmartVid API is returning server errors"
   },
   "serverIssueDescription": {
     "message": "L'enregistrament al núvol no està disponible ara mateix. Torna-ho a provar d'aquí a poc.",
-    "description": "Description shown when the Screenity API is returning server errors"
+    "description": "Description shown when the SmartVid API is returning server errors"
   },
   "serverUnreachableTitle": {
-    "message": "No es pot connectar amb Screenity",
-    "description": "Title shown when the Screenity API cannot be reached"
+    "message": "No es pot connectar amb SmartVid",
+    "description": "Title shown when the SmartVid API cannot be reached"
   },
   "serverUnreachableDescription": {
     "message": "Comprova la connexió o torna-ho a provar d'aquí a un moment.",
-    "description": "Description shown when the Screenity API cannot be reached"
+    "description": "Description shown when the SmartVid API cannot be reached"
   },
   "updateChromeLabelTitle": {
     "message": "Cal actualitzar Chrome",
@@ -740,11 +740,11 @@
     "description": "Títol del modal de gravació en pausa"
   },
   "chromePermissionsModalTitle": {
-    "message": "Screenity no té permís per gravar la pantalla",
+    "message": "SmartVid no té permís per gravar la pantalla",
     "description": "Títol del modal de permisos"
   },
   "chromePermissionsModalDescription": {
-    "message": "Per habilitar la gravació de pantalla, has de concedir permisos adicionals a Screenity.",
+    "message": "Per habilitar la gravació de pantalla, has de concedir permisos adicionals a SmartVid.",
     "description": "Descripció del modal de permisos"
   },
   "chromePermissionsModalAction": {
@@ -772,7 +772,7 @@
     "description": "Cancel·la del modal de micròfon apagat"
   },
   "setupTitle": {
-    "message": "Comença a utilitzar Screenity en tres passos senzills:",
+    "message": "Comença a utilitzar SmartVid en tres passos senzills:",
     "description": "Títol dels passos de configuració"
   },
   "setupStep1Before": {
@@ -796,7 +796,7 @@
     "description": "Pas 3 de configuració, abans de la icona. Necessita un espai al final."
   },
   "setupStep3After": {
-    "message": " Screenity per començar",
+    "message": " SmartVid per començar",
     "description": "Pas 3 de configuració, després de la icona. Necessita un espai al principi."
   },
   "setupCompleteTitle": {
@@ -852,7 +852,7 @@
     "description": "Stop recording button in recording screen"
   },
   "updateAnnouncementTitle": {
-    "message": "Benvingut al nou Screenity!",
+    "message": "Benvingut al nou SmartVid!",
     "description": "Títol de l'anunci d'actualització per als usuaris existents"
   },
   "updateAnnouncementDescription": {
@@ -872,7 +872,7 @@
     "description": "Títol del modal d'error de transmissió"
   },
   "streamErrorModalDescription": {
-    "message": "Hi ha hagut un error en iniciar la gravació. Reinicia el teu navegador i torna-ho a provar. Si el problema persisteix, si us plau, posa't en contacte amb nosaltres a support@screenity.io.",
+    "message": "Hi ha hagut un error en iniciar la gravació. Reinicia el teu navegador i torna-ho a provar. Si el problema persisteix, si us plau, posa't en contacte amb nosaltres a support@smartvid.example.",
     "description": "Descripció del modal d'error de transmissió"
   },
   "accountErrorModalTitle": {
@@ -880,11 +880,11 @@
     "description": "Title of the modal shown when a cloud recording is refused because the account has no active subscription"
   },
   "accountErrorModalDescription": {
-    "message": "Screenity no ha pogut iniciar una gravació al núvol perquè aquest compte no té cap subscripció activa. Les teves gravacions i la configuració estan segures.",
+    "message": "SmartVid no ha pogut iniciar una gravació al núvol perquè aquest compte no té cap subscripció activa. Les teves gravacions i la configuració estan segures.",
     "description": "Body shown when the account has never had an active subscription (server: upgrade_required)"
   },
   "accountErrorModalDescriptionLapsed": {
-    "message": "Screenity no ha pogut iniciar una gravació al núvol perquè l'accés Pro d'aquest compte ha finalitzat. Les teves gravacions i la configuració estan segures.",
+    "message": "SmartVid no ha pogut iniciar una gravació al núvol perquè l'accés Pro d'aquest compte ha finalitzat. Les teves gravacions i la configuració estan segures.",
     "description": "Body shown when the account's subscription has ended (server: reactivate_required)"
   },
   "accountErrorModalAction": {
@@ -896,7 +896,7 @@
     "description": "Title of the modal shown when a cloud recording is refused because the session expired, not the subscription"
   },
   "authErrorModalDescription": {
-    "message": "Screenity no ha pogut iniciar una gravació al núvol perquè la sessió ha caducat. La teva subscripció, les gravacions i la configuració estan segures.",
+    "message": "SmartVid no ha pogut iniciar una gravació al núvol perquè la sessió ha caducat. La teva subscripció, les gravacions i la configuració estan segures.",
     "description": "Body shown when the session/token failed; the account may well be a paying subscriber"
   },
   "authErrorModalAction": {
@@ -952,7 +952,7 @@
     "description": "Títol d'espai insuficient"
   },
   "notEnoughSpaceDescription": {
-    "message": "Screenity necessita almenys 1 GB d'espai lliure per a la gravació. Si us plau, allibera espai i torna-ho a intentar.",
+    "message": "SmartVid necessita almenys 1 GB d'espai lliure per a la gravació. Si us plau, allibera espai i torna-ho a intentar.",
     "description": "Descripció d'espai insuficient"
   },
   "clearSpaceButton": {
@@ -984,7 +984,7 @@
     "description": "Títol del modal de gravació en brut"
   },
   "rawRecordingModalDescription": {
-    "message": "L'arxiu de vídeo en brut és l'arxiu original enregistrat per Screenity. Aquest vídeo no ha estat processat ni editat, per la qual cosa pot ser molt gran i potser no es pot reproduir en tots els dispositius. Si tens problemes amb el vídeo processat, pots fer servir aquest arxiu per recuperar el teu vídeo.",
+    "message": "L'arxiu de vídeo en brut és l'arxiu original enregistrat per SmartVid. Aquest vídeo no ha estat processat ni editat, per la qual cosa pot ser molt gran i potser no es pot reproduir en tots els dispositius. Si tens problemes amb el vídeo processat, pots fer servir aquest arxiu per recuperar el teu vídeo.",
     "description": "Descripció del modal de gravació en brut"
   },
   "rawRecordingModalButton": {
@@ -996,7 +996,7 @@
     "description": "Títol del modal de solució de problemes"
   },
   "troubleshootModalDescription": {
-    "message": "Després de la descàrrega, envia l'arxiu a support@screenity.io amb qualsevol informació rellevant. Farem servir aquestes dades per ajudar-te a solucionar qualsevol problema que tinguis amb l'extensió i, si és possible, recuperar el teu vídeo.",
+    "message": "Després de la descàrrega, envia l'arxiu a support@smartvid.example amb qualsevol informació rellevant. Farem servir aquestes dades per ajudar-te a solucionar qualsevol problema que tinguis amb l'extensió i, si és possible, recuperar el teu vídeo.",
     "description": "Descripció del modal de solució de problemes"
   },
   "troubleshootModalButton": {
@@ -1008,11 +1008,11 @@
     "description": "Títol del modal de límit superior a 5 minuts"
   },
   "overLimitModalDescription": {
-    "message": "Com que Screenity és completament privat i s'executa localment, està limitat pel maquinari del teu dispositiu. Processar un vídeo d'aquesta longitud trigarà massa temps i serà molt intensiu en recursos. No et preocupis, encara pots descarregar l'arxiu WEBM o la gravació en brut, però l'edició i l'exportació a MP4 no estan disponibles. Dicho això, encara pots intentar processar el vídeo de tota manera si entens els riscos.",
+    "message": "Com que SmartVid és completament privat i s'executa localment, està limitat pel maquinari del teu dispositiu. Processar un vídeo d'aquesta longitud trigarà massa temps i serà molt intensiu en recursos. No et preocupis, encara pots descarregar l'arxiu WEBM o la gravació en brut, però l'edició i l'exportació a MP4 no estan disponibles. Dicho això, encara pots intentar processar el vídeo de tota manera si entens els riscos.",
     "description": "Descripció del modal de límit superior a 5 minuts"
   },
   "overLimitModalDescriptionFastPath": {
-    "message": "Com que Screenity és completament privat i s'executa localment, està limitat pel maquinari del teu dispositiu. Processar un vídeo d'aquesta longitud trigarà massa temps i serà molt intensiu en recursos. El teu MP4 ja està llest per descarregar, però l'edició al navegador no està disponible per a clips tan llargs. Dicho això, encara pots intentar processar el vídeo de tota manera si entens els riscos.",
+    "message": "Com que SmartVid és completament privat i s'executa localment, està limitat pel maquinari del teu dispositiu. Processar un vídeo d'aquesta longitud trigarà massa temps i serà molt intensiu en recursos. El teu MP4 ja està llest per descarregar, però l'edició al navegador no està disponible per a clips tan llargs. Dicho això, encara pots intentar processar el vídeo de tota manera si entens els riscos.",
     "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)"
   },
   "overLimitModalButton": {
@@ -1054,7 +1054,7 @@
     "description": "Títol d'extensió no compatible a la pestanya"
   },
   "extensionNotSupportedDescription": {
-    "message": "Screenity no era compatible a la teva pestanya anterior. No obstant això, pots començar la gravació aquí i després canviar a la pestanya, però la teva càmera i la barra de ferramentes no seran visibles.",
+    "message": "SmartVid no era compatible a la teva pestanya anterior. No obstant això, pots començar la gravació aquí i després canviar a la pestanya, però la teva càmera i la barra de ferramentes no seran visibles.",
     "description": "Descripció d'extensió no compatible a la pestanya"
   },
   "backupsDescription1": {
@@ -1308,7 +1308,7 @@
     "description": "Button label to go to the dashboard in the popup"
   },
   "welcomePopupTitle": {
-    "message": "Benvingut a Screenity",
+    "message": "Benvingut a SmartVid",
     "description": "Title for the welcome popup shown to new users"
   },
   "welcomePopupDescriptionTop": {
@@ -1368,7 +1368,7 @@
     "description": "Title shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionDescription": {
-    "message": "La teva subscripció a Screenity Pro està inactiva.",
+    "message": "La teva subscripció a SmartVid Pro està inactiva.",
     "description": "Description shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionReactivation": {
@@ -1457,7 +1457,7 @@
   },
   "welcomeProButton": {
     "message": "Desbloqueja l'editor",
-    "description": "Button to sign in to Screenity Pro"
+    "description": "Button to sign in to SmartVid Pro"
   },
   "welcomeProSupport": {
     "message": "Dona suport a la desenvolupadora independent!",
@@ -1476,7 +1476,7 @@
     "description": "Pro banner title in the editor"
   },
   "proBannerDescription": {
-    "message": "Screenity sempre serà gratuït, de codi obert i sense anuncis. Pro ajuda a cobrir costos de núvol i infraestructura, i dona suport a una desenvolupadora independent! ❤️",
+    "message": "SmartVid sempre serà gratuït, de codi obert i sense anuncis. Pro ajuda a cobrir costos de núvol i infraestructura, i dona suport a una desenvolupadora independent! ❤️",
     "description": "Pro banner description in the editor"
   },
   "proBannerAltButton": {
@@ -1508,15 +1508,15 @@
     "description": "Button to upgrade to Pro"
   },
   "hostBannerTitle": {
-    "message": "Gaudeixes de Screenity localment? Dona suport al seu futur!",
+    "message": "Gaudeixes de SmartVid localment? Dona suport al seu futur!",
     "description": "Títol del bàner d'autoallotjament a l'editor"
   },
   "hostBannerDescription": {
-    "message": "Screenity està creada per una desenvolupadora indie. Autoallotjar és gratuït, però si et resulta útil, considera donar-hi suport amb Pro ❤️",
+    "message": "SmartVid està creada per una desenvolupadora indie. Autoallotjar és gratuït, però si et resulta útil, considera donar-hi suport amb Pro ❤️",
     "description": "Descripció del bàner d'autoallotjament a l'editor"
   },
   "welcomeBackPopupTitle": {
-    "message": "Benvingut de nou a Screenity",
+    "message": "Benvingut de nou a SmartVid",
     "description": "Títol del popup de benvinguda mostrat als usuaris que tornen"
   },
   "welcomeBackProTitle": {
@@ -1524,15 +1524,15 @@
     "description": "Títol per a la funció d'emmagatzematge al núvol en el popup de benvinguda"
   },
   "welcomeBackProDescription": {
-    "message": "Screenity Pro és una nova plataforma opcional per desar vídeos al núvol, compartir-los amb un enllaç i desbloquejar eines avançades d’edició, si i quan les necessitis.",
+    "message": "SmartVid Pro és una nova plataforma opcional per desar vídeos al núvol, compartir-los amb un enllaç i desbloquejar eines avançades d’edició, si i quan les necessitis.",
     "description": "Descripció de la funció d'emmagatzematge al núvol en el popup de benvinguda"
   },
   "welcomeBackProCTA": {
-    "message": "Descobreix Screenity Pro",
+    "message": "Descobreix SmartVid Pro",
     "description": "Botó de crida a l'acció per a la funció d'emmagatzematge al núvol en el popup de benvinguda"
   },
   "welcomeToProTitleModal": {
-    "message": "Benvingut a Screenity Pro",
+    "message": "Benvingut a SmartVid Pro",
     "description": "Títol del modal de benvinguda a Pro"
   },
   "welcomeToProDescriptionModal": {
@@ -1552,7 +1552,7 @@
     "description": "WebCodecs failure auto-disable toast"
   },
   "proOnboardingWelcomeTitle": {
-    "message": "Benvingut/da a l'extensió Screenity Pro",
+    "message": "Benvingut/da a l'extensió SmartVid Pro",
     "description": "Pro onboarding welcome step title"
   },
   "proOnboardingWelcomeDescription": {
@@ -1696,7 +1696,7 @@
     "description": "Toast shown before the screen picker reopens because system audio could not start and capture is retrying without it"
   },
   "editorRecoveryToast": {
-    "message": "L'enregistrament s'ha desat. L'editor no s'ha obert. Fes clic a la icona de Screenity per tornar-ho a provar.",
+    "message": "L'enregistrament s'ha desat. L'editor no s'ha obert. Fes clic a la icona de SmartVid per tornar-ho a provar.",
     "description": "Toast shown on the active tab when the post-recording editor tab fails to open"
   },
   "stopAckTimeoutToast": {
@@ -1739,7 +1739,7 @@
     "message": "Encara preparant la teva gravació…"
   },
   "editorStuckDescription": {
-    "message": "Screenity està trigant més del normal a carregar la teva gravació. Les teves dades poden seguir en aquest dispositiu. Prova de recuperar-la, o contacta'ns si no torna."
+    "message": "SmartVid està trigant més del normal a carregar la teva gravació. Les teves dades poden seguir en aquest dispositiu. Prova de recuperar-la, o contacta'ns si no torna."
   },
   "editorStuckTryRecover": {
     "message": "Prova de recuperar"
@@ -1766,7 +1766,7 @@
     "message": "No s'ha pogut iniciar la gravació"
   },
   "recordingFailedModalDescription": {
-    "message": "Alguna cosa ha impedit que la gravació s'iniciés. Torna-ho a provar. Si segueix passant, escriu-nos a support@screenity.io."
+    "message": "Alguna cosa ha impedit que la gravació s'iniciés. Torna-ho a provar. Si segueix passant, escriu-nos a support@smartvid.example."
   },
   "editAudioTooLargeTitle": {
     "message": "El fitxer d'àudio és massa gran"
@@ -1886,7 +1886,7 @@
     "description": "Modal title when Google Drive authentication expired or was revoked"
   },
   "driveAuthModalDescription": {
-    "message": "Google no ha permès que Screenity iniciï la sessió. Torna-ho a provar amb un altre compte de Google o descarrega el vídeo. Els comptes d'escola o de feina poden bloquejar-ho.",
+    "message": "Google no ha permès que SmartVid iniciï la sessió. Torna-ho a provar amb un altre compte de Google o descarrega el vídeo. Els comptes d'escola o de feina poden bloquejar-ho.",
     "description": "Modal description when Google Drive authentication expired or was revoked"
   },
   "emptyRecordingTitle": {

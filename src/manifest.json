@@ -27,6 +27,15 @@
       "css": [
         "assets/fonts/fonts.css"
       ]
+    },
+    {
+      "matches": [
+        "http://localhost/*",
+        "https://smartvid.example/*"
+      ],
+      "js": [
+        "smartvidbridge.bundle.js"
+      ]
     }
   ],
   "web_accessible_resources": [
@@ -58,7 +67,7 @@
     }
   ],
   "oauth2": {
-    "client_id": "560517327251-m7n1k3kddknu7s9s4ejvrs1bj91gutd7.apps.googleusercontent.com",
+    "client_id": "REPLACE_WITH_YOUR_GOOGLE_OAUTH_CLIENT_ID.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/drive.file"
     ]
@@ -121,8 +130,8 @@
   },
   "externally_connectable": {
     "matches": [
-      "https://app.screenity.io/*",
-      "http://localhost:3000/*"
+      "https://smartvid.example/*",
+      "http://localhost:5173/*"
     ]
   },
   "optional_permissions": [

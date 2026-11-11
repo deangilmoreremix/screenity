@@ -1,3 +1,19 @@
+# SmartVid Recorder
+
+SmartVid's screen recorder: a Chrome extension (MV3) that records your screen, tab or camera and sends the recording straight to the SmartVid timeline editor (**Send to SmartVid timeline** in the post-recording panel).
+
+This project is a modified fork of [Screenity](https://github.com/alyssaxuu/screenity) by Alyssa X, licensed under the **GNU GPLv3** (see `LICENSE`). Original copyright and licence notices are retained, and the complete source of this extension is available in this repository, as GPLv3 requires. "Screenity" and its logos are not licensed for reuse.
+
+## Configure before shipping
+- `src/pages/SmartVid/config.js` and `src/manifest.json` (the SmartVid bridge `content_scripts` match, `externally_connectable`): replace the `smartvid.example` placeholder with the real editor origin.
+- `src/manifest.json` `oauth2.client_id`: add your own Google OAuth client for Drive saving, or remove the Drive feature.
+- Replace the logo/icon files in `src/assets` (`logo*`, `icon-*`, `favicon.png`, `new-logo.svg`) with SmartVid artwork.
+- The upstream README asks commercial users to contact the author first; do that before a commercial release.
+
+---
+
+## Upstream README (Screenity)
+
 # Screenity
 
 > _✨ Screenity's open source work is sponsored by_

@@ -1,6 +1,6 @@
 {
   "reviewAskTitle": {
-    "message": "Screenity senin için nasıl gidiyor?",
+    "message": "SmartVid senin için nasıl gidiyor?",
     "description": "Review prompt step 1 question (sentiment check) in the editor"
   },
   "reviewAskGood": {
@@ -16,7 +16,7 @@
     "description": "Review prompt happy-branch title in the editor"
   },
   "reviewThanksDescription": {
-    "message": "Ben Alyssa, Screenity'nin arkasındaki tek geliştiriciyim. İlk sürümünü 2020'de yaptım ve ücretsiz eklentiyi bugün hâlâ aktif olarak geliştiriyorum.\n\nScreenity sana yardımcı olduysa, kısa bir inceleme bırakmak onu desteklemenin en güzel yollarından biri ❤️",
+    "message": "Ben Alyssa, SmartVid'nin arkasındaki tek geliştiriciyim. İlk sürümünü 2020'de yaptım ve ücretsiz eklentiyi bugün hâlâ aktif olarak geliştiriyorum.\n\nSmartVid sana yardımcı olduysa, kısa bir inceleme bırakmak onu desteklemenin en güzel yollarından biri ❤️",
     "description": "Review prompt happy-branch description (founder voice) in the editor. Paragraphs separated by a blank line."
   },
   "reviewThanksButton": {
@@ -32,7 +32,7 @@
     "description": "Review prompt unhappy-branch title in the editor"
   },
   "reviewSorryDescription": {
-    "message": "Ben Alyssa, Screenity'nin geliştiricisiyim ve her mesajı kendim okuyorum. Neyin ters gittiğini bana anlat, düzeltmek için elimden geleni yapayım.",
+    "message": "Ben Alyssa, SmartVid'nin geliştiricisiyim ve her mesajı kendim okuyorum. Neyin ters gittiğini bana anlat, düzeltmek için elimden geleni yapayım.",
     "description": "Review prompt unhappy-branch description in the editor"
   },
   "reviewSorryButton": {
@@ -44,7 +44,7 @@
     "description": "Review prompt dismiss button on the unhappy branch"
   },
   "extName": {
-    "message": "Screenity - Ekran Kayıt & Not Aracı",
+    "message": "SmartVid - Ekran Kayıt & Not Aracı",
     "description": "Uzantı adı"
   },
   "extDesc": {
@@ -92,7 +92,7 @@
     "description": "Kamera / mikrofon izinleri uyarı modalı başlığı"
   },
   "permissionsModalDescription": {
-    "message": "Screenity'nin kamera veya mikrofonunuza erişemiyor gibi görünüyor. Kameranın simgesine tıklayarak erişime izin verdiğinizden emin olun.",
+    "message": "SmartVid'nin kamera veya mikrofonunuza erişemiyor gibi görünüyor. Kameranın simgesine tıklayarak erişime izin verdiğinizden emin olun.",
     "description": "Kamera / mikrofon izinleri uyarı modalı açıklaması"
   },
   "permissionsModalDismiss": {
@@ -112,7 +112,7 @@
     "description": "Modal title shown when the editor cannot read the recording file from the device's storage"
   },
   "opfsLoadErrorDescription": {
-    "message": "Görünüşe göre Screenity kaydı cihazınızın deposundan yükleyemedi. Silinmiş veya taşınmış olabilir. Bu sorun devam ederse, lütfen support@screenity.io adresinden bizimle iletişime geçin.",
+    "message": "Görünüşe göre SmartVid kaydı cihazınızın deposundan yükleyemedi. Silinmiş veya taşınmış olabilir. Bu sorun devam ederse, lütfen support@smartvid.example adresinden bizimle iletişime geçin.",
     "description": "Modal description shown when the editor cannot read the recording file from the device's storage"
   },
   "recordingWriterFailedToast": {
@@ -552,20 +552,20 @@
     "description": "Çevrimdışı etiketi tekrar deneme düğmesi"
   },
   "serverIssueTitle": {
-    "message": "Screenity kullanılamıyor",
-    "description": "Title shown when the Screenity API is returning server errors"
+    "message": "SmartVid kullanılamıyor",
+    "description": "Title shown when the SmartVid API is returning server errors"
   },
   "serverIssueDescription": {
     "message": "Bulut kaydı şu anda kullanılamıyor. Lütfen birazdan tekrar deneyin.",
-    "description": "Description shown when the Screenity API is returning server errors"
+    "description": "Description shown when the SmartVid API is returning server errors"
   },
   "serverUnreachableTitle": {
-    "message": "Screenity'ye ulaşılamıyor",
-    "description": "Title shown when the Screenity API cannot be reached"
+    "message": "SmartVid'ye ulaşılamıyor",
+    "description": "Title shown when the SmartVid API cannot be reached"
   },
   "serverUnreachableDescription": {
     "message": "Lütfen bağlantınızı kontrol edin veya birazdan tekrar deneyin.",
-    "description": "Description shown when the Screenity API cannot be reached"
+    "description": "Description shown when the SmartVid API cannot be reached"
   },
   "updateChromeLabelTitle": {
     "message": "Chrome güncellenmesi gerekiyor",
@@ -740,11 +740,11 @@
     "description": "Durdurulan kayıt modal başlığı"
   },
   "chromePermissionsModalTitle": {
-    "message": "Screenity ekranınızı kaydetme iznine sahip değil",
+    "message": "SmartVid ekranınızı kaydetme iznine sahip değil",
     "description": "İzin modal başlığı"
   },
   "chromePermissionsModalDescription": {
-    "message": "Ekran kaydını etkinleştirmek için, Screenity'nin ekranınızı yakalamasına izin vermelisiniz.",
+    "message": "Ekran kaydını etkinleştirmek için, SmartVid'nin ekranınızı yakalamasına izin vermelisiniz.",
     "description": "İzin modal açıklaması"
   },
   "chromePermissionsModalAction": {
@@ -772,7 +772,7 @@
     "description": "Mikrofon kapalı modal iptal"
   },
   "setupTitle": {
-    "message": "Screenity ile üç basit adımda başlayın:",
+    "message": "SmartVid ile üç basit adımda başlayın:",
     "description": "Kurulum adımları başlığı"
   },
   "setupStep1Before": {
@@ -796,7 +796,7 @@
     "description": "Kurulum adımı 3, ikonun önünde. Sonunda bir boşluk olmalı."
   },
   "setupStep3After": {
-    "message": " Screenity ikonuna tıklayarak başlayın",
+    "message": " SmartVid ikonuna tıklayarak başlayın",
     "description": "Kurulum adımı 3, ikonun sonunda. Başında bir boşluk olmalı."
   },
   "setupCompleteTitle": {
@@ -852,7 +852,7 @@
     "description": "Kaydı Durdur düğmesi"
   },
   "updateAnnouncementTitle": {
-    "message": "Yeni Screenity'ye Hoş Geldiniz!",
+    "message": "Yeni SmartVid'ye Hoş Geldiniz!",
     "description": "Mevcut kullanıcılar için güncelleme duyurusu başlığı"
   },
   "updateAnnouncementDescription": {
@@ -872,7 +872,7 @@
     "description": "Akış hatası modal başlığı"
   },
   "streamErrorModalDescription": {
-    "message": "Kaydın başlatılmasında bir hata oluştu gibi görünüyor. Tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, lütfen support@screenity.io adresinden bize ulaşın.",
+    "message": "Kaydın başlatılmasında bir hata oluştu gibi görünüyor. Tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, lütfen support@smartvid.example adresinden bize ulaşın.",
     "description": "Akış hatası modal açıklaması"
   },
   "accountErrorModalTitle": {
@@ -880,11 +880,11 @@
     "description": "Title of the modal shown when a cloud recording is refused because the account has no active subscription"
   },
   "accountErrorModalDescription": {
-    "message": "Screenity bulut kaydı başlatamadı çünkü bu hesabın etkin bir aboneliği yok. Kayıtlarınız ve ayarlarınız güvende.",
+    "message": "SmartVid bulut kaydı başlatamadı çünkü bu hesabın etkin bir aboneliği yok. Kayıtlarınız ve ayarlarınız güvende.",
     "description": "Body shown when the account has never had an active subscription (server: upgrade_required)"
   },
   "accountErrorModalDescriptionLapsed": {
-    "message": "Screenity bulut kaydı başlatamadı çünkü bu hesabın Pro erişimi sona erdi. Kayıtlarınız ve ayarlarınız güvende.",
+    "message": "SmartVid bulut kaydı başlatamadı çünkü bu hesabın Pro erişimi sona erdi. Kayıtlarınız ve ayarlarınız güvende.",
     "description": "Body shown when the account's subscription has ended (server: reactivate_required)"
   },
   "accountErrorModalAction": {
@@ -896,7 +896,7 @@
     "description": "Title of the modal shown when a cloud recording is refused because the session expired, not the subscription"
   },
   "authErrorModalDescription": {
-    "message": "Screenity bulut kaydı başlatamadı çünkü bu oturum sona erdi. Aboneliğiniz, kayıtlarınız ve ayarlarınız güvende.",
+    "message": "SmartVid bulut kaydı başlatamadı çünkü bu oturum sona erdi. Aboneliğiniz, kayıtlarınız ve ayarlarınız güvende.",
     "description": "Body shown when the session/token failed; the account may well be a paying subscriber"
   },
   "authErrorModalAction": {
@@ -952,7 +952,7 @@
     "description": "Yetersiz Alan Başlık"
   },
   "notEnoughSpaceDescription": {
-    "message": "Screenity, kayıt için en az 1 GB boş alan gerektirir. Lütfen cihazınızda alan açın ve yeniden deneyin.",
+    "message": "SmartVid, kayıt için en az 1 GB boş alan gerektirir. Lütfen cihazınızda alan açın ve yeniden deneyin.",
     "description": "Yetersiz Alan Açıklama"
   },
   "clearSpaceButton": {
@@ -984,7 +984,7 @@
     "description": "Ham kayıt modal başlığı"
   },
   "rawRecordingModalDescription": {
-    "message": "Ham video dosyası, Screenity tarafından kaydedilen orijinal video dosyasıdır. Bu video işlenmemiş veya düzenlenmemiş olduğundan çok büyük olabilir ve tüm cihazlarda oynatılamayabilir. İşlenmiş video ile sorun yaşıyorsanız, bu dosyayı videoyu kurtarmak için kullanabilirsiniz.",
+    "message": "Ham video dosyası, SmartVid tarafından kaydedilen orijinal video dosyasıdır. Bu video işlenmemiş veya düzenlenmemiş olduğundan çok büyük olabilir ve tüm cihazlarda oynatılamayabilir. İşlenmiş video ile sorun yaşıyorsanız, bu dosyayı videoyu kurtarmak için kullanabilirsiniz.",
     "description": "Ham kayıt modal açıklaması"
   },
   "rawRecordingModalButton": {
@@ -996,7 +996,7 @@
     "description": "Sorun giderme modal başlığı"
   },
   "troubleshootModalDescription": {
-    "message": "İndirdikten sonra dosyayı support@screenity.io adresine gönderin ve ilgili bilgileri ekleyin. Bu verileri, uzantı ile ilgili yaşadığınız sorunları çözmek ve mümkünse videonuzu kurtarmak için kullanacağız.",
+    "message": "İndirdikten sonra dosyayı support@smartvid.example adresine gönderin ve ilgili bilgileri ekleyin. Bu verileri, uzantı ile ilgili yaşadığınız sorunları çözmek ve mümkünse videonuzu kurtarmak için kullanacağız.",
     "description": "Sorun giderme modal açıklaması"
   },
   "troubleshootModalButton": {
@@ -1008,11 +1008,11 @@
     "description": "5 dakika sınırlı modal başlığı"
   },
   "overLimitModalDescription": {
-    "message": "Screenity tamamen özel ve yerel olarak çalıştığı için cihazınızın donanımıyla sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok uzun sürer ve çok fazla kaynak kullanır. Ancak, hala WEBM dosyasını veya ham kaydı indirebilirsiniz, ancak düzenleme ve MP4 dışa aktarma seçenekleri mevcut değildir. Yine de riskleri anlıyorsanız, videoyu işlemeyi deneyebilirsiniz.",
+    "message": "SmartVid tamamen özel ve yerel olarak çalıştığı için cihazınızın donanımıyla sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok uzun sürer ve çok fazla kaynak kullanır. Ancak, hala WEBM dosyasını veya ham kaydı indirebilirsiniz, ancak düzenleme ve MP4 dışa aktarma seçenekleri mevcut değildir. Yine de riskleri anlıyorsanız, videoyu işlemeyi deneyebilirsiniz.",
     "description": "5 dakika sınırlı modal açıklaması"
   },
   "overLimitModalDescriptionFastPath": {
-    "message": "Screenity tamamen özel ve yerel olarak çalıştığı için cihazınızın donanımıyla sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok uzun sürer ve çok fazla kaynak kullanır. MP4 dosyanız indirilmeye hazır, ancak bu uzunluktaki klipler için tarayıcıda düzenleme yapılamaz. Yine de riskleri anlıyorsanız, videoyu işlemeyi deneyebilirsiniz.",
+    "message": "SmartVid tamamen özel ve yerel olarak çalıştığı için cihazınızın donanımıyla sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok uzun sürer ve çok fazla kaynak kullanır. MP4 dosyanız indirilmeye hazır, ancak bu uzunluktaki klipler için tarayıcıda düzenleme yapılamaz. Yine de riskleri anlıyorsanız, videoyu işlemeyi deneyebilirsiniz.",
     "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)"
   },
   "overLimitModalButton": {
@@ -1054,7 +1054,7 @@
     "description": "Sekme Üzerinde Desteklenmeyen Uzantı Başlığı"
   },
   "extensionNotSupportedDescription": {
-    "message": "Screenity önceki sekmenizde desteklenmiyordu. Yine de burada kaydı başlatabilir ve ardından sekmeye geçebilirsiniz, ancak kamera ve araç çubuğunuz görünür olmayacaktır.",
+    "message": "SmartVid önceki sekmenizde desteklenmiyordu. Yine de burada kaydı başlatabilir ve ardından sekmeye geçebilirsiniz, ancak kamera ve araç çubuğunuz görünür olmayacaktır.",
     "description": "Sekme Üzerinde Desteklenmeyen Uzantı Açıklaması"
   },
   "backupsDescription1": {
@@ -1308,7 +1308,7 @@
     "description": "Button label to go to the dashboard in the popup"
   },
   "welcomePopupTitle": {
-    "message": "Screenity'e hoş geldin",
+    "message": "SmartVid'e hoş geldin",
     "description": "Title for the welcome popup shown to new users"
   },
   "welcomePopupDescriptionTop": {
@@ -1368,7 +1368,7 @@
     "description": "Title shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionDescription": {
-    "message": "Screenity Pro aboneliğiniz aktif değil.",
+    "message": "SmartVid Pro aboneliğiniz aktif değil.",
     "description": "Description shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionReactivation": {
@@ -1457,7 +1457,7 @@
   },
   "welcomeProButton": {
     "message": "Editörün kilidini aç",
-    "description": "Button to sign in to Screenity Pro"
+    "description": "Button to sign in to SmartVid Pro"
   },
   "welcomeProSupport": {
     "message": "Bağımsız bir geliştiriciyi destekle",
@@ -1476,7 +1476,7 @@
     "description": "Pro banner title in the editor"
   },
   "proBannerDescription": {
-    "message": "Screenity her zaman ücretsiz, açık kaynak ve reklamsız olacak. Pro, bulut & altyapı maliyetlerini karşılar ve bağımsız bir geliştiriciyi destekler! ❤️",
+    "message": "SmartVid her zaman ücretsiz, açık kaynak ve reklamsız olacak. Pro, bulut & altyapı maliyetlerini karşılar ve bağımsız bir geliştiriciyi destekler! ❤️",
     "description": "Pro banner description in the editor"
   },
   "proBannerAltButton": {
@@ -1508,15 +1508,15 @@
     "description": "Button to upgrade to Pro"
   },
   "hostBannerTitle": {
-    "message": "Screenity’yi yerel olarak mı kullanıyorsunuz? Gelecekteki geliştirmelere destek olun!",
+    "message": "SmartVid’yi yerel olarak mı kullanıyorsunuz? Gelecekteki geliştirmelere destek olun!",
     "description": "Kendi sunucusunda barındıran kullanıcılar için banner başlığı"
   },
   "hostBannerDescription": {
-    "message": "Screenity, bağımsız bir kadın geliştirici tarafından oluşturuldu. Kendi sunucunuzda kullanmak ücretsizdir, ancak faydalı buluyorsanız, Pro ile desteklemeyi düşünebilirsiniz ❤️",
+    "message": "SmartVid, bağımsız bir kadın geliştirici tarafından oluşturuldu. Kendi sunucunuzda kullanmak ücretsizdir, ancak faydalı buluyorsanız, Pro ile desteklemeyi düşünebilirsiniz ❤️",
     "description": "Kendi sunucusunda barındıran kullanıcılar için banner açıklaması"
   },
   "welcomeBackPopupTitle": {
-    "message": "Screenity’e tekrar hoş geldiniz",
+    "message": "SmartVid’e tekrar hoş geldiniz",
     "description": "Geri dönen kullanıcılar için karşılama açılır penceresi başlığı"
   },
   "welcomeBackProTitle": {
@@ -1524,15 +1524,15 @@
     "description": "Karşılama açılır penceresinde bulut depolama özelliği başlığı"
   },
   "welcomeBackProDescription": {
-    "message": "Screenity Pro, videolarınızı bulutta saklamak, bağlantıyla paylaşmak ve gelişmiş düzenleme araçlarının kilidini açmak için isteğe bağlı yeni bir platformdur – ihtiyacınız olduğunda kullanabilirsiniz.",
+    "message": "SmartVid Pro, videolarınızı bulutta saklamak, bağlantıyla paylaşmak ve gelişmiş düzenleme araçlarının kilidini açmak için isteğe bağlı yeni bir platformdur – ihtiyacınız olduğunda kullanabilirsiniz.",
     "description": "Karşılama açılır penceresinde bulut depolama özelliğinin açıklaması"
   },
   "welcomeBackProCTA": {
-    "message": "Screenity Pro hakkında daha fazla bilgi edinin",
+    "message": "SmartVid Pro hakkında daha fazla bilgi edinin",
     "description": "Karşılama açılır penceresinde bulut depolama özelliği için harekete geçirici buton"
   },
   "welcomeToProTitleModal": {
-    "message": "Screenity Pro'ya Hoş Geldiniz",
+    "message": "SmartVid Pro'ya Hoş Geldiniz",
     "description": "Pro karşılama modali başlığı"
   },
   "welcomeToProDescriptionModal": {
@@ -1552,7 +1552,7 @@
     "description": "WebCodecs failure auto-disable toast"
   },
   "proOnboardingWelcomeTitle": {
-    "message": "Screenity Pro uzantısına hoş geldin",
+    "message": "SmartVid Pro uzantısına hoş geldin",
     "description": "Pro onboarding welcome step title"
   },
   "proOnboardingWelcomeDescription": {
@@ -1696,7 +1696,7 @@
     "description": "Toast shown before the screen picker reopens because system audio could not start and capture is retrying without it"
   },
   "editorRecoveryToast": {
-    "message": "Kaydınız kaydedildi. Düzenleyici açılmadı. Tekrar denemek için Screenity simgesine tıklayın.",
+    "message": "Kaydınız kaydedildi. Düzenleyici açılmadı. Tekrar denemek için SmartVid simgesine tıklayın.",
     "description": "Toast shown on the active tab when the post-recording editor tab fails to open"
   },
   "stopAckTimeoutToast": {
@@ -1739,7 +1739,7 @@
     "message": "Kaydınız hâlâ hazırlanıyor…"
   },
   "editorStuckDescription": {
-    "message": "Screenity, kaydınızı yüklemekte normalden daha uzun sürüyor. Verileriniz hâlâ bu cihazda olabilir. Kurtarmayı deneyin veya kayıt geri gelmezse bizimle iletişime geçin."
+    "message": "SmartVid, kaydınızı yüklemekte normalden daha uzun sürüyor. Verileriniz hâlâ bu cihazda olabilir. Kurtarmayı deneyin veya kayıt geri gelmezse bizimle iletişime geçin."
   },
   "editorStuckTryRecover": {
     "message": "Kurtarmayı deneyin"
@@ -1766,7 +1766,7 @@
     "message": "Kayıt başlatılamadı"
   },
   "recordingFailedModalDescription": {
-    "message": "Bir şey kaydın başlamasını engelledi. Lütfen tekrar deneyin. Sorun devam ederse support@screenity.io adresinden bize ulaşın."
+    "message": "Bir şey kaydın başlamasını engelledi. Lütfen tekrar deneyin. Sorun devam ederse support@smartvid.example adresinden bize ulaşın."
   },
   "editAudioTooLargeTitle": {
     "message": "Ses dosyası çok büyük"
@@ -1886,7 +1886,7 @@
     "description": "Modal title when Google Drive authentication expired or was revoked"
   },
   "driveAuthModalDescription": {
-    "message": "Google, Screenity'nin oturum açmasına izin vermedi. Başka bir Google hesabıyla tekrar deneyin ya da videoyu indirin. Okul ve iş hesapları bunu engelleyebilir.",
+    "message": "Google, SmartVid'nin oturum açmasına izin vermedi. Başka bir Google hesabıyla tekrar deneyin ya da videoyu indirin. Okul ve iş hesapları bunu engelleyebilir.",
     "description": "Modal description when Google Drive authentication expired or was revoked"
   },
   "emptyRecordingTitle": {

@@ -1,6 +1,6 @@
 {
   "reviewAskTitle": {
-    "message": "¿Qué tal te va con Screenity?",
+    "message": "¿Qué tal te va con SmartVid?",
     "description": "Review prompt step 1 question (sentiment check) in the editor"
   },
   "reviewAskGood": {
@@ -16,7 +16,7 @@
     "description": "Review prompt happy-branch title in the editor"
   },
   "reviewThanksDescription": {
-    "message": "Soy Alyssa, la creadora independiente que está detrás de Screenity. Hice la primera versión allá por 2020, y todavía hoy sigo manteniendo activamente la extensión gratuita.\n\nSi Screenity te ha servido, dejar una reseña rápida es una de las mejores formas de apoyarla ❤️",
+    "message": "Soy Alyssa, la creadora independiente que está detrás de SmartVid. Hice la primera versión allá por 2020, y todavía hoy sigo manteniendo activamente la extensión gratuita.\n\nSi SmartVid te ha servido, dejar una reseña rápida es una de las mejores formas de apoyarla ❤️",
     "description": "Review prompt happy-branch description (founder voice) in the editor. Paragraphs separated by a blank line."
   },
   "reviewThanksButton": {
@@ -32,7 +32,7 @@
     "description": "Review prompt unhappy-branch title in the editor"
   },
   "reviewSorryDescription": {
-    "message": "Soy Alyssa, la creadora de Screenity, y leo cada mensaje yo misma. Cuéntame qué ha ido mal y haré todo lo posible por arreglarlo.",
+    "message": "Soy Alyssa, la creadora de SmartVid, y leo cada mensaje yo misma. Cuéntame qué ha ido mal y haré todo lo posible por arreglarlo.",
     "description": "Review prompt unhappy-branch description in the editor"
   },
   "reviewSorryButton": {
@@ -44,7 +44,7 @@
     "description": "Review prompt dismiss button on the unhappy branch"
   },
   "extName": {
-    "message": "Screenity - Graba y anota tu pantalla",
+    "message": "SmartVid - Graba y anota tu pantalla",
     "description": "Nombre de la extensión"
   },
   "extDesc": {
@@ -92,7 +92,7 @@
     "description": "Título del modal de advertencia de permisos de cámara/micrófono"
   },
   "permissionsModalDescription": {
-    "message": "Parece que Screenity no puede acceder a tu cámara o micrófono. Permite el acceso haciendo clic en el icono de la cámara en la barra de direcciones.",
+    "message": "Parece que SmartVid no puede acceder a tu cámara o micrófono. Permite el acceso haciendo clic en el icono de la cámara en la barra de direcciones.",
     "description": "Descripción del modal de advertencia de permisos de cámara/micrófono"
   },
   "permissionsModalDismiss": {
@@ -112,7 +112,7 @@
     "description": "Modal title shown when the editor cannot read the recording file from the device's storage"
   },
   "opfsLoadErrorDescription": {
-    "message": "Parece que Screenity no pudo cargar la grabación desde el almacenamiento de tu dispositivo. Puede haber sido eliminada o movida. Si esto sigue ocurriendo, contáctanos en support@screenity.io.",
+    "message": "Parece que SmartVid no pudo cargar la grabación desde el almacenamiento de tu dispositivo. Puede haber sido eliminada o movida. Si esto sigue ocurriendo, contáctanos en support@smartvid.example.",
     "description": "Modal description shown when the editor cannot read the recording file from the device's storage"
   },
   "recordingWriterFailedToast": {
@@ -552,20 +552,20 @@
     "description": "Botón de intentar de nuevo de la etiqueta de sin conexión"
   },
   "serverIssueTitle": {
-    "message": "Screenity no está disponible",
-    "description": "Title shown when the Screenity API is returning server errors"
+    "message": "SmartVid no está disponible",
+    "description": "Title shown when the SmartVid API is returning server errors"
   },
   "serverIssueDescription": {
     "message": "La grabación en la nube no está disponible ahora mismo. Vuelve a intentarlo en unos momentos.",
-    "description": "Description shown when the Screenity API is returning server errors"
+    "description": "Description shown when the SmartVid API is returning server errors"
   },
   "serverUnreachableTitle": {
-    "message": "No se puede conectar con Screenity",
-    "description": "Title shown when the Screenity API cannot be reached"
+    "message": "No se puede conectar con SmartVid",
+    "description": "Title shown when the SmartVid API cannot be reached"
   },
   "serverUnreachableDescription": {
     "message": "Comprueba tu conexión o vuelve a intentarlo en un momento.",
-    "description": "Description shown when the Screenity API cannot be reached"
+    "description": "Description shown when the SmartVid API cannot be reached"
   },
   "updateChromeLabelTitle": {
     "message": "Chrome necesita actualizarse",
@@ -740,11 +740,11 @@
     "description": "Título del modal de grabación en pausa"
   },
   "chromePermissionsModalTitle": {
-    "message": "Screenity no tiene permiso para grabar tu pantalla",
+    "message": "SmartVid no tiene permiso para grabar tu pantalla",
     "description": "Título del modal de permisos"
   },
   "chromePermissionsModalDescription": {
-    "message": "Para habilitar la grabación de pantalla, debes conceder permisos a Screenity.",
+    "message": "Para habilitar la grabación de pantalla, debes conceder permisos a SmartVid.",
     "description": "Descripción del modal de permisos"
   },
   "chromePermissionsModalAction": {
@@ -772,7 +772,7 @@
     "description": "Cancelar del modal de micrófono apagado"
   },
   "setupTitle": {
-    "message": "Empieza a utilizar Screenity con tres pasos sencillos:",
+    "message": "Empieza a utilizar SmartVid con tres pasos sencillos:",
     "description": "Título de los pasos de configuración"
   },
   "setupStep1Before": {
@@ -796,7 +796,7 @@
     "description": "Paso 3 de configuración, antes del icono. Necesita un espacio al final."
   },
   "setupStep3After": {
-    "message": " icono de Screenity para empezar",
+    "message": " icono de SmartVid para empezar",
     "description": "Paso 3 de configuración, después del icono. Necesita un espacio al principio."
   },
   "setupCompleteTitle": {
@@ -852,7 +852,7 @@
     "description": "Stop recording button in recording screen"
   },
   "updateAnnouncementTitle": {
-    "message": "¡Bienvenido al nuevo Screenity!",
+    "message": "¡Bienvenido al nuevo SmartVid!",
     "description": "Título del anuncio de actualización para usuarios existentes"
   },
   "updateAnnouncementDescription": {
@@ -872,7 +872,7 @@
     "description": "Título del modal de error de transmisión"
   },
   "streamErrorModalDescription": {
-    "message": "Hubo un error al iniciar la grabación. Reinicia tu navegador e inténtalo de nuevo. Si el problema persiste, por favor, contáctanos en support@screenity.io.",
+    "message": "Hubo un error al iniciar la grabación. Reinicia tu navegador e inténtalo de nuevo. Si el problema persiste, por favor, contáctanos en support@smartvid.example.",
     "description": "Descripción del modal de error de transmisión"
   },
   "accountErrorModalTitle": {
@@ -880,11 +880,11 @@
     "description": "Title of the modal shown when a cloud recording is refused because the account has no active subscription"
   },
   "accountErrorModalDescription": {
-    "message": "Screenity no pudo iniciar una grabación en la nube porque esta cuenta no tiene una suscripción activa. Tus grabaciones y ajustes están a salvo.",
+    "message": "SmartVid no pudo iniciar una grabación en la nube porque esta cuenta no tiene una suscripción activa. Tus grabaciones y ajustes están a salvo.",
     "description": "Body shown when the account has never had an active subscription (server: upgrade_required)"
   },
   "accountErrorModalDescriptionLapsed": {
-    "message": "Screenity no pudo iniciar una grabación en la nube porque el acceso Pro de esta cuenta ha finalizado. Tus grabaciones y ajustes están a salvo.",
+    "message": "SmartVid no pudo iniciar una grabación en la nube porque el acceso Pro de esta cuenta ha finalizado. Tus grabaciones y ajustes están a salvo.",
     "description": "Body shown when the account's subscription has ended (server: reactivate_required)"
   },
   "accountErrorModalAction": {
@@ -896,7 +896,7 @@
     "description": "Title of the modal shown when a cloud recording is refused because the session expired, not the subscription"
   },
   "authErrorModalDescription": {
-    "message": "Screenity no pudo iniciar una grabación en la nube porque la sesión ha caducado. Tu suscripción, grabaciones y ajustes están a salvo.",
+    "message": "SmartVid no pudo iniciar una grabación en la nube porque la sesión ha caducado. Tu suscripción, grabaciones y ajustes están a salvo.",
     "description": "Body shown when the session/token failed; the account may well be a paying subscriber"
   },
   "authErrorModalAction": {
@@ -952,7 +952,7 @@
     "description": "Título de espacio insuficiente"
   },
   "notEnoughSpaceDescription": {
-    "message": "Screenity necesita al menos 1 GB de espacio libre para grabar. Por favor, libera espacio y vuelve a intentarlo.",
+    "message": "SmartVid necesita al menos 1 GB de espacio libre para grabar. Por favor, libera espacio y vuelve a intentarlo.",
     "description": "Descripción de espacio insuficiente"
   },
   "clearSpaceButton": {
@@ -984,7 +984,7 @@
     "description": "Título del modal de grabación sin procesar"
   },
   "rawRecordingModalDescription": {
-    "message": "El archivo de video sin procesar es el video original grabado por Screenity. Este video no ha sido procesado ni editado, por lo que puede ser muy grande y es posible que no se pueda reproducir en todos los dispositivos. Si tienes problemas con el video procesado, puedes usar este archivo para recuperar tu video.",
+    "message": "El archivo de video sin procesar es el video original grabado por SmartVid. Este video no ha sido procesado ni editado, por lo que puede ser muy grande y es posible que no se pueda reproducir en todos los dispositivos. Si tienes problemas con el video procesado, puedes usar este archivo para recuperar tu video.",
     "description": "Descripción del modal de grabación sin procesar"
   },
   "rawRecordingModalButton": {
@@ -996,7 +996,7 @@
     "description": "Título del modal de solución de problemas"
   },
   "troubleshootModalDescription": {
-    "message": "Después de descargar, envía el archivo a support@screenity.io con cualquier información relevante. Utilizaremos estos datos para ayudarte a solucionar cualquier problema que tengas con la extensión y, si es posible, recuperar tu video.",
+    "message": "Después de descargar, envía el archivo a support@smartvid.example con cualquier información relevante. Utilizaremos estos datos para ayudarte a solucionar cualquier problema que tengas con la extensión y, si es posible, recuperar tu video.",
     "description": "Descripción del modal de solución de problemas"
   },
   "troubleshootModalButton": {
@@ -1008,11 +1008,11 @@
     "description": "Título del modal de límite de más de 5 minutos"
   },
   "overLimitModalDescription": {
-    "message": "Dado que Screenity es completamente privado y se ejecuta localmente, está limitado por el hardware de tu dispositivo. Procesar un video de esta longitud llevaría demasiado tiempo y sería muy intensivo en recursos. No te preocupes, aún puedes descargar el archivo WEBM o la grabación sin procesar, pero la edición y la exportación a MP4 no están disponibles. Dicho esto, aún puedes intentar procesar el video de todos modos si comprendes los riesgos.",
+    "message": "Dado que SmartVid es completamente privado y se ejecuta localmente, está limitado por el hardware de tu dispositivo. Procesar un video de esta longitud llevaría demasiado tiempo y sería muy intensivo en recursos. No te preocupes, aún puedes descargar el archivo WEBM o la grabación sin procesar, pero la edición y la exportación a MP4 no están disponibles. Dicho esto, aún puedes intentar procesar el video de todos modos si comprendes los riesgos.",
     "description": "Descripción del modal de límite de más de 5 minutos"
   },
   "overLimitModalDescriptionFastPath": {
-    "message": "Dado que Screenity es completamente privado y se ejecuta localmente, está limitado por el hardware de tu dispositivo. Procesar un video de esta longitud llevaría demasiado tiempo y sería muy intensivo en recursos. Tu MP4 ya está listo para descargar, pero la edición en el navegador no está disponible para clips de esta longitud. Dicho esto, aún puedes intentar procesar el video de todos modos si comprendes los riesgos.",
+    "message": "Dado que SmartVid es completamente privado y se ejecuta localmente, está limitado por el hardware de tu dispositivo. Procesar un video de esta longitud llevaría demasiado tiempo y sería muy intensivo en recursos. Tu MP4 ya está listo para descargar, pero la edición en el navegador no está disponible para clips de esta longitud. Dicho esto, aún puedes intentar procesar el video de todos modos si comprendes los riesgos.",
     "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)"
   },
   "overLimitModalButton": {
@@ -1054,7 +1054,7 @@
     "description": "Título de extensión no compatible en la pestaña"
   },
   "extensionNotSupportedDescription": {
-    "message": "Screenity no fue compatible en tu pestaña anterior. Aún así, puedes comenzar tu grabación aquí y luego cambiar a la pestaña, pero tu cámara y barra de herramientas no serán visibles.",
+    "message": "SmartVid no fue compatible en tu pestaña anterior. Aún así, puedes comenzar tu grabación aquí y luego cambiar a la pestaña, pero tu cámara y barra de herramientas no serán visibles.",
     "description": "Descripción de extensión no compatible en la pestaña"
   },
   "backupsDescription1": {
@@ -1308,7 +1308,7 @@
     "description": "Button label to go to the dashboard in the popup"
   },
   "welcomePopupTitle": {
-    "message": "Bienvenida a Screenity",
+    "message": "Bienvenida a SmartVid",
     "description": "Title for the welcome popup shown to new users"
   },
   "welcomePopupDescriptionTop": {
@@ -1368,7 +1368,7 @@
     "description": "Title shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionDescription": {
-    "message": "Tu suscripción a Screenity Pro está inactiva.",
+    "message": "Tu suscripción a SmartVid Pro está inactiva.",
     "description": "Description shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionReactivation": {
@@ -1457,7 +1457,7 @@
   },
   "welcomeProButton": {
     "message": "Desbloquea el editor",
-    "description": "Button to sign in to Screenity Pro"
+    "description": "Button to sign in to SmartVid Pro"
   },
   "welcomeProSupport": {
     "message": "¡Apoya a la desarrolladora independiente!",
@@ -1476,7 +1476,7 @@
     "description": "Pro banner title in the editor"
   },
   "proBannerDescription": {
-    "message": "Screenity siempre será gratuito, de código abierto y sin anuncios. Pro ayuda a cubrir los costes de nube e infraestructura, y apoya a una desarrolladora independiente ❤️",
+    "message": "SmartVid siempre será gratuito, de código abierto y sin anuncios. Pro ayuda a cubrir los costes de nube e infraestructura, y apoya a una desarrolladora independiente ❤️",
     "description": "Pro banner description in the editor"
   },
   "proBannerAltButton": {
@@ -1508,15 +1508,15 @@
     "description": "Button to upgrade to Pro"
   },
   "hostBannerTitle": {
-    "message": "¿Disfrutas de Screenity localmente? ¡Apoya su desarrollo futuro!",
+    "message": "¿Disfrutas de SmartVid localmente? ¡Apoya su desarrollo futuro!",
     "description": "Título del banner de autoalojamiento en el editor"
   },
   "hostBannerDescription": {
-    "message": "Screenity está creada por una desarrolladora indie. Autoalojarlo es gratis, pero si te resulta útil, considera apoyarla con Pro ❤️",
+    "message": "SmartVid está creada por una desarrolladora indie. Autoalojarlo es gratis, pero si te resulta útil, considera apoyarla con Pro ❤️",
     "description": "Descripción del banner de autoalojamiento en el editor"
   },
   "welcomeBackPopupTitle": {
-    "message": "Bienvenido de nuevo a Screenity",
+    "message": "Bienvenido de nuevo a SmartVid",
     "description": "Título para el popup de bienvenida mostrado a los usuarios que regresan"
   },
   "welcomeBackProTitle": {
@@ -1524,15 +1524,15 @@
     "description": "Título para la función de almacenamiento en la nube en el popup de bienvenida"
   },
   "welcomeBackProDescription": {
-    "message": "Screenity Pro es una nueva plataforma opcional para guardar videos en la nube, compartirlos con un enlace y desbloquear herramientas avanzadas de edición, si y cuando las necesites.",
+    "message": "SmartVid Pro es una nueva plataforma opcional para guardar videos en la nube, compartirlos con un enlace y desbloquear herramientas avanzadas de edición, si y cuando las necesites.",
     "description": "Descripción de la función de almacenamiento en la nube en el popup de bienvenida"
   },
   "welcomeBackProCTA": {
-    "message": "Conoce más sobre Screenity Pro",
+    "message": "Conoce más sobre SmartVid Pro",
     "description": "Botón de llamada a la acción para la función de almacenamiento en la nube en el popup de bienvenida"
   },
   "welcomeToProTitleModal": {
-    "message": "Bienvenido a Screenity Pro",
+    "message": "Bienvenido a SmartVid Pro",
     "description": "Título del modal de bienvenida a Pro"
   },
   "welcomeToProDescriptionModal": {
@@ -1552,7 +1552,7 @@
     "description": "WebCodecs failure auto-disable toast"
   },
   "proOnboardingWelcomeTitle": {
-    "message": "Bienvenido a la extensión Screenity Pro",
+    "message": "Bienvenido a la extensión SmartVid Pro",
     "description": "Pro onboarding welcome step title"
   },
   "proOnboardingWelcomeDescription": {
@@ -1696,7 +1696,7 @@
     "description": "Toast shown before the screen picker reopens because system audio could not start and capture is retrying without it"
   },
   "editorRecoveryToast": {
-    "message": "Tu grabación está guardada. El editor no se abrió. Haz clic en el ícono de Screenity para intentarlo de nuevo.",
+    "message": "Tu grabación está guardada. El editor no se abrió. Haz clic en el ícono de SmartVid para intentarlo de nuevo.",
     "description": "Toast shown on the active tab when the post-recording editor tab fails to open"
   },
   "stopAckTimeoutToast": {
@@ -1739,7 +1739,7 @@
     "message": "Aún preparando tu grabación…"
   },
   "editorStuckDescription": {
-    "message": "Screenity está tardando más de lo habitual en cargar tu grabación. Tus datos podrían seguir en este dispositivo. Intenta recuperarla, o contáctanos si no aparece."
+    "message": "SmartVid está tardando más de lo habitual en cargar tu grabación. Tus datos podrían seguir en este dispositivo. Intenta recuperarla, o contáctanos si no aparece."
   },
   "editorStuckTryRecover": {
     "message": "Intentar recuperar"
@@ -1766,7 +1766,7 @@
     "message": "No se pudo iniciar la grabación"
   },
   "recordingFailedModalDescription": {
-    "message": "Algo impidió que la grabación se iniciara. Inténtalo de nuevo. Si sigue ocurriendo, escríbenos a support@screenity.io."
+    "message": "Algo impidió que la grabación se iniciara. Inténtalo de nuevo. Si sigue ocurriendo, escríbenos a support@smartvid.example."
   },
   "editAudioTooLargeTitle": {
     "message": "El archivo de audio es demasiado grande"
@@ -1886,7 +1886,7 @@
     "description": "Modal title when Google Drive authentication expired or was revoked"
   },
   "driveAuthModalDescription": {
-    "message": "Google no permitió que Screenity iniciara sesión. Inténtalo de nuevo con otra cuenta de Google o descarga el vídeo. Las cuentas de centros educativos o de trabajo pueden bloquearlo.",
+    "message": "Google no permitió que SmartVid iniciara sesión. Inténtalo de nuevo con otra cuenta de Google o descarga el vídeo. Las cuentas de centros educativos o de trabajo pueden bloquearlo.",
     "description": "Modal description when Google Drive authentication expired or was revoked"
   },
   "emptyRecordingTitle": {

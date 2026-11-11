@@ -23,10 +23,10 @@ const RecordingType = (props) => {
   const [cropActive, setCropActive] = useState(false);
   const [time, setTime] = useState(0);
   const [URL] = useState(
-    "https://help.screenity.io/getting-started/77KizPC8MHVGfpKpqdux9D/what-are-the-technical-requirements-for-using-screenity/6kdB6qru6naVD8ZLFvX3m9"
+    "https://smartvid.example/help"
   );
   const [URL2] = useState(
-    "https://help.screenity.io/troubleshooting/9Jy5RGjNrBB42hqUdREQ7W/how-to-grant-screenity-permission-to-record-your-camera-and-microphone/x6U69TnrbMjy5CQ96Er2E9"
+    "https://smartvid.example/help"
   );
 
   const buttonRef = useRef(null);

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState, useRef } from "react";
 import styles from "../../styles/player/_RightPanel.module.scss";
 
 import { buildDiagnosticZip } from "../../../utils/buildDiagnosticZip";
+import { sendToSmartVid } from "../../../SmartVid/sendToSmartVid";
 import { downloadResolvedRecording } from "../../recorderStorage/resolveRecordingFile";
 import { stageBlobToOpfs } from "../../recorderStorage/stageBlobToOpfs";
 import { diagForward } from "../../../utils/diagForward";
@@ -307,6 +308,29 @@ const RightPanel = () => {
     chrome.downloads.download({ url, filename: `${safe}.${ext}` }, () => {
       window.URL.revokeObjectURL(url);
     });
+  };
+
+  const [smartvidStatus, setSmartvidStatus] = useState("idle");
+  const handleSendToSmartVid = async () => {
+    const s = contentStateRef.current;
+    const source = s.blob || s.webm || s.rawBlob;
+    if (!source || smartvidStatus === "sending") return;
+    const blob =
+      source instanceof Blob
+        ? source
+        : new Blob([source], { type: "video/webm" });
+    setSmartvidStatus("sending");
+    try {
+      await sendToSmartVid(blob, {
+        name: s.title || "Screen Recording",
+        duration: s.duration,
+        mode: "screen",
+      });
+      setSmartvidStatus("sent");
+    } catch (err) {
+      console.error("[SmartVid] send failed:", err);
+      setSmartvidStatus("error");
+    }
   };
 
   const handleRawRecording = () => {
@@ -872,6 +896,29 @@ const RightPanel = () => {
                 {chrome.i18n.getMessage("signOutDriveLabel")}
               </div>
             )}
+            <div className={styles.buttonWrap}>
+              <div
+                role="button"
+                className={styles.button}
+                onClick={handleSendToSmartVid}
+                aria-disabled={smartvidStatus === "sending"}
+              >
+                <div className={styles.buttonMiddle}>
+                  <div className={styles.buttonTitle}>
+                    {smartvidStatus === "sending"
+                      ? "Sending to SmartVid…"
+                      : smartvidStatus === "sent"
+                      ? "Added to SmartVid timeline"
+                      : smartvidStatus === "error"
+                      ? "Couldn't reach SmartVid — retry"
+                      : "Send to SmartVid timeline"}
+                  </div>
+                  <div className={styles.buttonDescription}>
+                    Adds this recording to your SmartVid editor
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className={styles.buttonWrap}>
               <div
                 role="button"

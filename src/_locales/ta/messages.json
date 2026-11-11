@@ -1,6 +1,6 @@
 {
   "reviewAskTitle": {
-    "message": "Screenity உங்களுக்கு எப்படி வேலை செய்கிறது?",
+    "message": "SmartVid உங்களுக்கு எப்படி வேலை செய்கிறது?",
     "description": "Review prompt step 1 question (sentiment check) in the editor"
   },
   "reviewAskGood": {
@@ -16,7 +16,7 @@
     "description": "Review prompt happy-branch title in the editor"
   },
   "reviewThanksDescription": {
-    "message": "நான் Alyssa, Screenity-ஐ உருவாக்கிய தனி நபர். அதன் முதல் பதிப்பை 2020-ல் உருவாக்கினேன், இன்றும் இந்த இலவச நீட்டிப்பை தீவிரமாக பராமரித்து வருகிறேன்.\n\nScreenity உங்களுக்கு உதவியிருந்தால், ஒரு சிறு மதிப்பீட்டை எழுதுவது அதற்கு ஆதரவளிக்க சிறந்த வழிகளில் ஒன்றாகும் ❤️",
+    "message": "நான் Alyssa, SmartVid-ஐ உருவாக்கிய தனி நபர். அதன் முதல் பதிப்பை 2020-ல் உருவாக்கினேன், இன்றும் இந்த இலவச நீட்டிப்பை தீவிரமாக பராமரித்து வருகிறேன்.\n\nSmartVid உங்களுக்கு உதவியிருந்தால், ஒரு சிறு மதிப்பீட்டை எழுதுவது அதற்கு ஆதரவளிக்க சிறந்த வழிகளில் ஒன்றாகும் ❤️",
     "description": "Review prompt happy-branch description (founder voice) in the editor. Paragraphs separated by a blank line."
   },
   "reviewThanksButton": {
@@ -32,7 +32,7 @@
     "description": "Review prompt unhappy-branch title in the editor"
   },
   "reviewSorryDescription": {
-    "message": "நான் Alyssa, Screenity-ஐ உருவாக்கியவர், ஒவ்வொரு செய்தியையும் நானே படிக்கிறேன். என்ன தவறு நடந்தது என்று சொல்லுங்கள், அதைச் சரிசெய்ய என்னால் முடிந்த அனைத்தையும் செய்கிறேன்.",
+    "message": "நான் Alyssa, SmartVid-ஐ உருவாக்கியவர், ஒவ்வொரு செய்தியையும் நானே படிக்கிறேன். என்ன தவறு நடந்தது என்று சொல்லுங்கள், அதைச் சரிசெய்ய என்னால் முடிந்த அனைத்தையும் செய்கிறேன்.",
     "description": "Review prompt unhappy-branch description in the editor"
   },
   "reviewSorryButton": {
@@ -92,7 +92,7 @@
     "description": "கேமரா / மைக்ரோஃபோன் அனுமதிகள் எச்சரிக்கை செய்தியின் தலைப்பு"
   },
   "permissionsModalDescription": {
-    "message": "Screenity உங்கள் கேமரா அல்லது மைக்ரோஃபோனை அணுக முடியவில்லை போல் தெரிகிறது. முகவரிப் பட்டியில் உள்ள கேமரா ஐகானைக் கிளிக் செய்து அணுகலை அனுமதியுங்கள்.",
+    "message": "SmartVid உங்கள் கேமரா அல்லது மைக்ரோஃபோனை அணுக முடியவில்லை போல் தெரிகிறது. முகவரிப் பட்டியில் உள்ள கேமரா ஐகானைக் கிளிக் செய்து அணுகலை அனுமதியுங்கள்.",
     "description": "கேமரா / மைக்ரோஃபோன் அனுமதிகள் எச்சரிக்கை செய்தியின் விளக்கம் விளக்கம்"
   },
   "permissionsModalDismiss": {
@@ -112,7 +112,7 @@
     "description": "Modal title shown when the editor cannot read the recording file from the device's storage"
   },
   "opfsLoadErrorDescription": {
-    "message": "Screenity உங்கள் சாதனத்தின் சேமிப்பகத்திலிருந்து பதிவை ஏற்ற முடியவில்லை. அது அழிக்கப்பட்டிருக்கலாம் அல்லது நகர்த்தப்பட்டிருக்கலாம். இது தொடர்ந்து நடந்தால், support@screenity.io இல் எங்களை தொடர்பு கொள்ளவும்.",
+    "message": "SmartVid உங்கள் சாதனத்தின் சேமிப்பகத்திலிருந்து பதிவை ஏற்ற முடியவில்லை. அது அழிக்கப்பட்டிருக்கலாம் அல்லது நகர்த்தப்பட்டிருக்கலாம். இது தொடர்ந்து நடந்தால், support@smartvid.example இல் எங்களை தொடர்பு கொள்ளவும்.",
     "description": "Modal description shown when the editor cannot read the recording file from the device's storage"
   },
   "recordingWriterFailedToast": {
@@ -552,20 +552,20 @@
     "description": "ஆஃப்லைன் லேபிள் மீண்டும் முயற்சி செய் பொத்தான்"
   },
   "serverIssueTitle": {
-    "message": "Screenity கிடைக்கவில்லை",
-    "description": "Title shown when the Screenity API is returning server errors"
+    "message": "SmartVid கிடைக்கவில்லை",
+    "description": "Title shown when the SmartVid API is returning server errors"
   },
   "serverIssueDescription": {
     "message": "கிளவுட் பதிவு தற்போது கிடைக்கவில்லை. சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்.",
-    "description": "Description shown when the Screenity API is returning server errors"
+    "description": "Description shown when the SmartVid API is returning server errors"
   },
   "serverUnreachableTitle": {
-    "message": "Screenity ஐ அணுக முடியவில்லை",
-    "description": "Title shown when the Screenity API cannot be reached"
+    "message": "SmartVid ஐ அணுக முடியவில்லை",
+    "description": "Title shown when the SmartVid API cannot be reached"
   },
   "serverUnreachableDescription": {
     "message": "உங்கள் இணைப்பைச் சரிபார்க்கவும் அல்லது சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்.",
-    "description": "Description shown when the Screenity API cannot be reached"
+    "description": "Description shown when the SmartVid API cannot be reached"
   },
   "updateChromeLabelTitle": {
     "message": "கூகுள் புதுப்பிக்க வேண்டும்",
@@ -740,11 +740,11 @@
     "description": "தற்போது இயக்கப்படுகின்ற விசை பட்டியல் தற்போது இயக்கப்படுகின்றது"
   },
   "chromePermissionsModalTitle": {
-    "message": "Screenity உங்கள் திரையை பதிவு செய்ய அனுமதியில்லை",
+    "message": "SmartVid உங்கள் திரையை பதிவு செய்ய அனுமதியில்லை",
     "description": "அனுமதி பட்டியல் தலைப்பு"
   },
   "chromePermissionsModalDescription": {
-    "message": "திரைப் பதிவை இயக்க, கேட்கப்படும்போது உங்கள் திரையைப் பிடிக்க Screenity-க்கு அனுமதி வழங்க வேண்டும்.",
+    "message": "திரைப் பதிவை இயக்க, கேட்கப்படும்போது உங்கள் திரையைப் பிடிக்க SmartVid-க்கு அனுமதி வழங்க வேண்டும்.",
     "description": "அனுமதி பட்டியல் விளக்கம்"
   },
   "chromePermissionsModalAction": {
@@ -796,7 +796,7 @@
     "description": "அமைதிப் படிகள் பட்டியல் 3, ஐகானுக்கு முந்திர விசை தேவை."
   },
   "setupStep3After": {
-    "message": " Screenity ஐகானை தொடர்க",
+    "message": " SmartVid ஐகானை தொடர்க",
     "description": "அமைதிப் படிகள் பட்டியல் 3, ஐகானுக்கு பின்னர் விசை தேவை."
   },
   "setupCompleteTitle": {
@@ -852,7 +852,7 @@
     "description": "பதிவு முடிக்க பொது பொது"
   },
   "updateAnnouncementTitle": {
-    "message": "புதிய Screenity க்கு வரவேற்கின்றது!",
+    "message": "புதிய SmartVid க்கு வரவேற்கின்றது!",
     "description": "அந்தப் பயனாளர்களுக்காக புதியது அற்புதம் தலைப்பு"
   },
   "updateAnnouncementDescription": {
@@ -872,7 +872,7 @@
     "description": "ஸ்ட்ரீம் பிழை மாடல் தலைப்பு"
   },
   "streamErrorModalDescription": {
-    "message": "பதிவில் ஏதோ பிழை ஏற்பட்டது போல் தெரிகிறது. உங்கள் உலாவியை மீண்டும் தொடங்கி, மீண்டும் முயற்சிக்கவும். சிக்கல் தொடர்ந்தால், தயவுசெய்து support@screenity.io முகவரியில் எங்களைத் தொடர்பு கொள்ளவும்.",
+    "message": "பதிவில் ஏதோ பிழை ஏற்பட்டது போல் தெரிகிறது. உங்கள் உலாவியை மீண்டும் தொடங்கி, மீண்டும் முயற்சிக்கவும். சிக்கல் தொடர்ந்தால், தயவுசெய்து support@smartvid.example முகவரியில் எங்களைத் தொடர்பு கொள்ளவும்.",
     "description": "ஸ்ட்ரீம் பிழை மாடல் விளக்கம்"
   },
   "accountErrorModalTitle": {
@@ -880,11 +880,11 @@
     "description": "Title of the modal shown when a cloud recording is refused because the account has no active subscription"
   },
   "accountErrorModalDescription": {
-    "message": "இந்தக் கணக்கில் செயலில் உள்ள சந்தா இல்லாததால் Screenity கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் பதிவுகளும் அமைப்புகளும் பாதுகாப்பாக உள்ளன.",
+    "message": "இந்தக் கணக்கில் செயலில் உள்ள சந்தா இல்லாததால் SmartVid கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் பதிவுகளும் அமைப்புகளும் பாதுகாப்பாக உள்ளன.",
     "description": "Body shown when the account has never had an active subscription (server: upgrade_required)"
   },
   "accountErrorModalDescriptionLapsed": {
-    "message": "இந்தக் கணக்கின் Pro அணுகல் முடிந்துவிட்டதால் Screenity கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் பதிவுகளும் அமைப்புகளும் பாதுகாப்பாக உள்ளன.",
+    "message": "இந்தக் கணக்கின் Pro அணுகல் முடிந்துவிட்டதால் SmartVid கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் பதிவுகளும் அமைப்புகளும் பாதுகாப்பாக உள்ளன.",
     "description": "Body shown when the account's subscription has ended (server: reactivate_required)"
   },
   "accountErrorModalAction": {
@@ -896,7 +896,7 @@
     "description": "Title of the modal shown when a cloud recording is refused because the session expired, not the subscription"
   },
   "authErrorModalDescription": {
-    "message": "அமர்வு காலாவதியானதால் Screenity கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் சந்தா, பதிவுகள், அமைப்புகள் அனைத்தும் பாதுகாப்பாக உள்ளன.",
+    "message": "அமர்வு காலாவதியானதால் SmartVid கிளவுட் பதிவைத் தொடங்க முடியவில்லை. உங்கள் சந்தா, பதிவுகள், அமைப்புகள் அனைத்தும் பாதுகாப்பாக உள்ளன.",
     "description": "Body shown when the session/token failed; the account may well be a paying subscriber"
   },
   "authErrorModalAction": {
@@ -952,7 +952,7 @@
     "description": "புதியவில் போக்கு இல்லை தலைப்பு"
   },
   "notEnoughSpaceDescription": {
-    "message": "பதிவு செய்ய Screenity-க்கு குறைந்தபட்சம் 1GB இலவச இடம் தேவை. தயவுசெய்து சிறிது இடத்தைக் காலி செய்து மீண்டும் முயற்சிக்கவும்.",
+    "message": "பதிவு செய்ய SmartVid-க்கு குறைந்தபட்சம் 1GB இலவச இடம் தேவை. தயவுசெய்து சிறிது இடத்தைக் காலி செய்து மீண்டும் முயற்சிக்கவும்.",
     "description": "புதியவில் போக்கு இல்லை விளக்கம்"
   },
   "clearSpaceButton": {
@@ -984,7 +984,7 @@
     "description": "மூல பதிவிறக்கம் மாடல் தலைப்பு"
   },
   "rawRecordingModalDescription": {
-    "message": "மூல வீடியோ கோப்பு என்பது Screenity பதிவு செய்த அசல் வீடியோ கோப்பாகும். இது செயலாக்கப்படவோ திருத்தப்படவோ இல்லை, எனவே மிகப் பெரியதாகவும் எல்லாச் சாதனங்களிலும் இயக்க முடியாததாகவும் இருக்கலாம். செயலாக்கப்பட்ட வீடியோவில் சிக்கல்கள் ஏற்பட்டால், உங்கள் வீடியோவை மீட்டெடுக்க இந்தக் கோப்பைப் பயன்படுத்தலாம்.",
+    "message": "மூல வீடியோ கோப்பு என்பது SmartVid பதிவு செய்த அசல் வீடியோ கோப்பாகும். இது செயலாக்கப்படவோ திருத்தப்படவோ இல்லை, எனவே மிகப் பெரியதாகவும் எல்லாச் சாதனங்களிலும் இயக்க முடியாததாகவும் இருக்கலாம். செயலாக்கப்பட்ட வீடியோவில் சிக்கல்கள் ஏற்பட்டால், உங்கள் வீடியோவை மீட்டெடுக்க இந்தக் கோப்பைப் பயன்படுத்தலாம்.",
     "description": "மூல பதிவிறக்கம் மாடல் விளக்கம்"
   },
   "rawRecordingModalButton": {
@@ -996,7 +996,7 @@
     "description": "தகவலுக்கு உதவி மாடல் தலைப்பு"
   },
   "troubleshootModalDescription": {
-    "message": "இது கணினித் தகவல்கள் மற்றும் சமீபத்திய பதிவு அமர்வுத் தரவுகளுடன் ஒரு கண்டறிதல் அறிக்கையைப் பதிவிறக்கும். உங்கள் சிக்கலை நாங்கள் தீர்க்க உதவ அதை support@screenity.io-க்கு அனுப்புங்கள். எந்த வீடியோ அல்லது ஒலித் தரவும் இதில் சேர்க்கப்படவில்லை.",
+    "message": "இது கணினித் தகவல்கள் மற்றும் சமீபத்திய பதிவு அமர்வுத் தரவுகளுடன் ஒரு கண்டறிதல் அறிக்கையைப் பதிவிறக்கும். உங்கள் சிக்கலை நாங்கள் தீர்க்க உதவ அதை support@smartvid.example-க்கு அனுப்புங்கள். எந்த வீடியோ அல்லது ஒலித் தரவும் இதில் சேர்க்கப்படவில்லை.",
     "description": "தகவலுக்கு உதவி மாடல் விளக்கம்"
   },
   "troubleshootModalButton": {
@@ -1008,11 +1008,11 @@
     "description": "5 நிமிட வாரந்தோற்ற உள்ளடக்கம் உடைய மாதிரி மோடல் தலைப்பு"
   },
   "overLimitModalDescription": {
-    "message": "Screenity முற்றிலும் தனிப்பட்டது மற்றும் உள்ளூரில் இயங்குவதால், உங்கள் சாதனத்தின் வன்பொருளால் வரையறுக்கப்படுகிறது. இவ்வளவு நீளமான வீடியோவைச் செயலாக்க அதிக நேரமும் வளங்களும் தேவைப்படும். கவலைப்பட வேண்டாம், WEBM கோப்பையோ மூலப் பதிவையோ இன்னும் பதிவிறக்கலாம், ஆனால் திருத்துதலும் MP4 ஏற்றுமதியும் கிடைக்காது. அபாயங்களைப் புரிந்திருந்தால், வீடியோவை எப்படியாயினும் செயலாக்க முயற்சிக்கலாம்.",
+    "message": "SmartVid முற்றிலும் தனிப்பட்டது மற்றும் உள்ளூரில் இயங்குவதால், உங்கள் சாதனத்தின் வன்பொருளால் வரையறுக்கப்படுகிறது. இவ்வளவு நீளமான வீடியோவைச் செயலாக்க அதிக நேரமும் வளங்களும் தேவைப்படும். கவலைப்பட வேண்டாம், WEBM கோப்பையோ மூலப் பதிவையோ இன்னும் பதிவிறக்கலாம், ஆனால் திருத்துதலும் MP4 ஏற்றுமதியும் கிடைக்காது. அபாயங்களைப் புரிந்திருந்தால், வீடியோவை எப்படியாயினும் செயலாக்க முயற்சிக்கலாம்.",
     "description": "5 நிமிட வாரந்தோற்ற உள்ளடக்கம் மோடல் விளக்கம்"
   },
   "overLimitModalDescriptionFastPath": {
-    "message": "Screenity முற்றிலும் தனிப்பட்டதாகவும் உள்ளூரில் இயங்குவதால், உங்கள் சாதன வன்பொருளால் வரையறுக்கப்படுகிறது. இந்த நீளமான வீடியோவை செயலாக்க அதிக நேரம் மற்றும் வளங்கள் தேவைப்படும். உங்கள் MP4 பதிவிறக்கத் தயாராக உள்ளது, ஆனால் இவ்வளவு நீளமான கிளிப்புகளுக்கு உலாவியில் திருத்தம் கிடைக்காது. இருந்தாலும், நீங்கள் அபாயங்களைப் புரிந்தால் வீடியோவை செயலாக்க முயற்சி செய்யலாம்.",
+    "message": "SmartVid முற்றிலும் தனிப்பட்டதாகவும் உள்ளூரில் இயங்குவதால், உங்கள் சாதன வன்பொருளால் வரையறுக்கப்படுகிறது. இந்த நீளமான வீடியோவை செயலாக்க அதிக நேரம் மற்றும் வளங்கள் தேவைப்படும். உங்கள் MP4 பதிவிறக்கத் தயாராக உள்ளது, ஆனால் இவ்வளவு நீளமான கிளிப்புகளுக்கு உலாவியில் திருத்தம் கிடைக்காது. இருந்தாலும், நீங்கள் அபாயங்களைப் புரிந்தால் வீடியோவை செயலாக்க முயற்சி செய்யலாம்.",
     "description": "Over 5 minutes limit modal description when the recording is a native MP4 (fast recorder / WebCodecs)"
   },
   "overLimitModalButton": {
@@ -1054,7 +1054,7 @@
     "description": "அட்டவணை ஆதரிக்கப்படாத நீக்கம் தலைப்பு"
   },
   "extensionNotSupportedDescription": {
-    "message": "உங்கள் முந்தைய தாவலில் Screenity ஆதரிக்கப்படவில்லை. இங்கே பதிவைத் தொடங்கி அந்தத் தாவலுக்குத் திரும்பலாம், ஆனால் உங்கள் கேமராவும் கருவிப்பட்டியும் தெரியாது.",
+    "message": "உங்கள் முந்தைய தாவலில் SmartVid ஆதரிக்கப்படவில்லை. இங்கே பதிவைத் தொடங்கி அந்தத் தாவலுக்குத் திரும்பலாம், ஆனால் உங்கள் கேமராவும் கருவிப்பட்டியும் தெரியாது.",
     "description": "அட்டவணை ஆதரிக்கப்படாத நீக்கம் விளக்கம்"
   },
   "backupsDescription1": {
@@ -1308,7 +1308,7 @@
     "description": "Button label to go to the dashboard in the popup"
   },
   "welcomePopupTitle": {
-    "message": "Screenity-க்கு வரவேற்கிறோம்",
+    "message": "SmartVid-க்கு வரவேற்கிறோம்",
     "description": "Title for the welcome popup shown to new users"
   },
   "welcomePopupDescriptionTop": {
@@ -1368,7 +1368,7 @@
     "description": "Title shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionDescription": {
-    "message": "உங்கள் Screenity Pro சந்தா செயலற்ற நிலையில் உள்ளது.",
+    "message": "உங்கள் SmartVid Pro சந்தா செயலற்ற நிலையில் உள்ளது.",
     "description": "Description shown when the user's subscription is inactive"
   },
   "inactiveSubscriptionReactivation": {
@@ -1457,7 +1457,7 @@
   },
   "welcomeProButton": {
     "message": "எடிட்டரைத் திறக்கவும்",
-    "description": "Button to sign in to Screenity Pro"
+    "description": "Button to sign in to SmartVid Pro"
   },
   "welcomeProSupport": {
     "message": "ஒரு தனி சுயாதீன படைப்பாளரின் வளர்ச்சிக்கு ஆதரவளியுங்கள்",
@@ -1476,7 +1476,7 @@
     "description": "Pro banner title in the editor"
   },
   "proBannerDescription": {
-    "message": "Screenity எப்போதும் இலவசமாகவும், திறந்த மூலமாகவும், விளம்பரம் இல்லாமலும் இருக்கும். Pro கிளவுட் மற்றும் உள்கட்டமைப்பு செலவுகளைச் சமாளிக்க உதவுகிறது, மேலும் ஒரு தனி சுயாதீன டெவலப்பரின் வளர்ச்சிக்கு ஆதரவளிக்கிறது! ❤️",
+    "message": "SmartVid எப்போதும் இலவசமாகவும், திறந்த மூலமாகவும், விளம்பரம் இல்லாமலும் இருக்கும். Pro கிளவுட் மற்றும் உள்கட்டமைப்பு செலவுகளைச் சமாளிக்க உதவுகிறது, மேலும் ஒரு தனி சுயாதீன டெவலப்பரின் வளர்ச்சிக்கு ஆதரவளிக்கிறது! ❤️",
     "description": "Pro banner description in the editor"
   },
   "proBannerAltButton": {
@@ -1508,15 +1508,15 @@
     "description": "Button to upgrade to Pro"
   },
   "hostBannerTitle": {
-    "message": "Screenity-ஐ உள்ளூர் சேவையகத்தில் பயன்படுத்திக் கொண்டிருக்கிறீர்களா? எதிர்கால மேம்பாட்டை ஆதரிக்குங்கள்!",
+    "message": "SmartVid-ஐ உள்ளூர் சேவையகத்தில் பயன்படுத்திக் கொண்டிருக்கிறீர்களா? எதிர்கால மேம்பாட்டை ஆதரிக்குங்கள்!",
     "description": "தானாக ஹோஸ்ட் செய்யும் பயனர்களுக்கான பேனர் தலைப்பு"
   },
   "hostBannerDescription": {
-    "message": "Screenity ஒரு தனிப்பட்ட பெண் டெவலப்பரால் உருவாக்கப்பட்டதாகும். தானாக ஹோஸ்ட் செய்வது இலவசம், ஆனால் இது பயனுள்ளதாக இருந்தால், Pro பதிப்பின் மூலம் ஆதரியுங்கள் ❤️",
+    "message": "SmartVid ஒரு தனிப்பட்ட பெண் டெவலப்பரால் உருவாக்கப்பட்டதாகும். தானாக ஹோஸ்ட் செய்வது இலவசம், ஆனால் இது பயனுள்ளதாக இருந்தால், Pro பதிப்பின் மூலம் ஆதரியுங்கள் ❤️",
     "description": "தானாக ஹோஸ்ட் செய்யும் பயனர்களுக்கான பேனர் விளக்கம்"
   },
   "welcomeBackPopupTitle": {
-    "message": "திரும்ப வருக Screenity-க்கு!",
+    "message": "திரும்ப வருக SmartVid-க்கு!",
     "description": "திரும்ப வந்த பயனர்களுக்கான வரவேற்பு பாப்அப்பின் தலைப்பு"
   },
   "welcomeBackProTitle": {
@@ -1524,15 +1524,15 @@
     "description": "மேகம் சார்ந்த சேமிப்பு அம்சத்துக்கான தலைப்பு"
   },
   "welcomeBackProDescription": {
-    "message": "Screenity Pro என்பது உங்கள் வீடியோக்களை மேகத்தில் சேமிக்க, ஒரு இணைப்பின் மூலம் பகிர, மேலும் மேம்பட்ட தொகுப்பு கருவிகளை அணுக ஒரு விருப்பமான புதிய தளமாகும் – நீங்கள் விரும்பும் நேரத்தில் பயன்படுத்தலாம்.",
+    "message": "SmartVid Pro என்பது உங்கள் வீடியோக்களை மேகத்தில் சேமிக்க, ஒரு இணைப்பின் மூலம் பகிர, மேலும் மேம்பட்ட தொகுப்பு கருவிகளை அணுக ஒரு விருப்பமான புதிய தளமாகும் – நீங்கள் விரும்பும் நேரத்தில் பயன்படுத்தலாம்.",
     "description": "மேக சேமிப்பு அம்சத்தின் விளக்கம்"
   },
   "welcomeBackProCTA": {
-    "message": "Screenity Pro பற்றி மேலும் அறிக",
+    "message": "SmartVid Pro பற்றி மேலும் அறிக",
     "description": "மேக சேமிப்பு அம்சத்துக்கான செயல் அழைப்பு பொத்தான்"
   },
   "welcomeToProTitleModal": {
-    "message": "Screenity Pro-க்கு வரவேற்கிறோம்",
+    "message": "SmartVid Pro-க்கு வரவேற்கிறோம்",
     "description": "Pro வரவேற்பு தோன்றும் பதிலின் தலைப்பு"
   },
   "welcomeToProDescriptionModal": {
@@ -1552,7 +1552,7 @@
     "description": "WebCodecs failure auto-disable toast"
   },
   "proOnboardingWelcomeTitle": {
-    "message": "Screenity Pro நீட்டிப்புக்கு வரவேற்கிறோம்",
+    "message": "SmartVid Pro நீட்டிப்புக்கு வரவேற்கிறோம்",
     "description": "Pro onboarding welcome step title"
   },
   "proOnboardingWelcomeDescription": {
@@ -1696,7 +1696,7 @@
     "description": "Toast shown before the screen picker reopens because system audio could not start and capture is retrying without it"
   },
   "editorRecoveryToast": {
-    "message": "உங்கள் பதிவு சேமிக்கப்பட்டது. எடிட்டர் திறக்கப்படவில்லை. மீண்டும் முயற்சிக்க Screenity சின்னத்தைக் கிளிக் செய்யுங்கள்.",
+    "message": "உங்கள் பதிவு சேமிக்கப்பட்டது. எடிட்டர் திறக்கப்படவில்லை. மீண்டும் முயற்சிக்க SmartVid சின்னத்தைக் கிளிக் செய்யுங்கள்.",
     "description": "Toast shown on the active tab when the post-recording editor tab fails to open"
   },
   "stopAckTimeoutToast": {
@@ -1739,7 +1739,7 @@
     "message": "உங்கள் பதிவு இன்னும் தயாராகிறது…"
   },
   "editorStuckDescription": {
-    "message": "Screenity உங்கள் பதிவை ஏற்ற வழக்கத்தை விட அதிக நேரம் எடுக்கிறது. உங்கள் தரவு இந்தச் சாதனத்தில் இருக்கக்கூடும். மீட்க முயற்சிக்கவும், அது திரும்ப வரவில்லை எனில் எங்களைத் தொடர்பு கொள்ளவும்."
+    "message": "SmartVid உங்கள் பதிவை ஏற்ற வழக்கத்தை விட அதிக நேரம் எடுக்கிறது. உங்கள் தரவு இந்தச் சாதனத்தில் இருக்கக்கூடும். மீட்க முயற்சிக்கவும், அது திரும்ப வரவில்லை எனில் எங்களைத் தொடர்பு கொள்ளவும்."
   },
   "editorStuckTryRecover": {
     "message": "மீட்க முயற்சிக்கவும்"
@@ -1766,7 +1766,7 @@
     "message": "பதிவு தொடங்க முடியவில்லை"
   },
   "recordingFailedModalDescription": {
-    "message": "பதிவு தொடங்குவதில் சிக்கல் ஏற்பட்டது. மீண்டும் முயற்சிக்கவும். இது தொடர்ந்து நடந்தால், support@screenity.io மூலம் எங்களைத் தொடர்பு கொள்ளவும்."
+    "message": "பதிவு தொடங்குவதில் சிக்கல் ஏற்பட்டது. மீண்டும் முயற்சிக்கவும். இது தொடர்ந்து நடந்தால், support@smartvid.example மூலம் எங்களைத் தொடர்பு கொள்ளவும்."
   },
   "editAudioTooLargeTitle": {
     "message": "ஆடியோ கோப்பு மிகப் பெரியது"
@@ -1886,7 +1886,7 @@
     "description": "Modal title when Google Drive authentication expired or was revoked"
   },
   "driveAuthModalDescription": {
-    "message": "Screenity உள்நுழைவதை Google அனுமதிக்கவில்லை. வேறு Google கணக்கில் மீண்டும் முயலவும், அல்லது அதற்குப் பதிலாக வீடியோவைப் பதிவிறக்கவும். பள்ளி மற்றும் பணி கணக்குகள் இதைத் தடுக்கலாம்.",
+    "message": "SmartVid உள்நுழைவதை Google அனுமதிக்கவில்லை. வேறு Google கணக்கில் மீண்டும் முயலவும், அல்லது அதற்குப் பதிலாக வீடியோவைப் பதிவிறக்கவும். பள்ளி மற்றும் பணி கணக்குகள் இதைத் தடுக்கலாம்.",
     "description": "Modal description when Google Drive authentication expired or was revoked"
   },
   "emptyRecordingTitle": {
