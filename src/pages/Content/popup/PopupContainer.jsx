@@ -635,6 +635,7 @@ const PopupContainer = (props) => {
                 onValueChange={onValueChange}
               >
                 <Tabs.List
+                  style={{ display: "none" }}
                   className="TabsList tl"
                   data-value={tab}
                   aria-label="Manage your account"
@@ -676,9 +677,6 @@ const PopupContainer = (props) => {
                 </Tabs.List>
                 <Tabs.Content className="TabsContent tl" value="record">
                   <RecordingTab shadowRef={props.shadowRef} />
-                </Tabs.Content>
-                <Tabs.Content className="TabsContent tl" value="dashboard">
-                  <VideosTab shadowRef={props.shadowRef} />
                 </Tabs.Content>
               </Tabs.Root>
             )}

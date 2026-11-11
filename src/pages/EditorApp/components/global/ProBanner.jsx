@@ -6,6 +6,9 @@ const CLOUD_FEATURES_ENABLED =
   process.env.SCREENITY_ENABLE_CLOUD_FEATURES === "true";
 
 const ProBanner = () => {
+  // SmartVid: no Pro/cloud upsell.
+  return null;
+  // eslint-disable-next-line no-unreachable
   const [contentState, setContentState] = useContext(ContentStateContext); // Access the ContentState context
 
   const titleKey = CLOUD_FEATURES_ENABLED

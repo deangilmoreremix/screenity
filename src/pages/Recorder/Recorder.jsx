@@ -572,7 +572,7 @@ const Recorder = () => {
         } else {
           msPath = "create-fresh";
           navigator.mediaSession.metadata = new window.MediaMetadata({
-            title: "Screenity recording",
+            title: "SmartVid recording",
             artist: "Screenity",
           });
           navigator.mediaSession.playbackState = "playing";

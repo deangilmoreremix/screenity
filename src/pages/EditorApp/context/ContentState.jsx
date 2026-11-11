@@ -719,7 +719,7 @@ const ContentState = (props) => {
         minute: "2-digit",
         hour12: true,
       });
-      const fallbackTitle = `Screenity video - ${formattedDate}`;
+      const fallbackTitle = `SmartVid recording - ${formattedDate}`;
 
       try {
         const { recordingMeta } = await chrome.storage.local.get([
@@ -2903,7 +2903,7 @@ const ContentState = (props) => {
     out = out.replace(/\s+/g, " ").trim();
     out = out.replace(/[. ]+$/g, "");
 
-    if (!out) out = "Screenity recording";
+    if (!out) out = "SmartVid recording";
     if (out.length > maxLen) out = out.slice(0, maxLen).trim();
 
     return out;
@@ -2921,7 +2921,7 @@ const ContentState = (props) => {
       downloadError: null,
     }));
 
-    const rawTitle = contentStateRef.current.title || "Screenity recording";
+    const rawTitle = contentStateRef.current.title || "SmartVid recording";
 
     const base = sanitizeDownloadFilename(rawTitle);
     const filename = `${base}${ext}`;

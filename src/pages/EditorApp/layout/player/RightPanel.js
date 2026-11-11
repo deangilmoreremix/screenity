@@ -886,16 +886,6 @@ const RightPanel = () => {
             <div className={styles.sectionTitle}>
               {chrome.i18n.getMessage("sandboxSaveTitle")}
             </div>
-            {contentState.driveEnabled && (
-              <div
-                className={styles.buttonLogout}
-                onClick={() => {
-                  signOutDrive();
-                }}
-              >
-                {chrome.i18n.getMessage("signOutDriveLabel")}
-              </div>
-            )}
             <div className={styles.buttonWrap}>
               <div
                 role="button"
@@ -916,38 +906,6 @@ const RightPanel = () => {
                   <div className={styles.buttonDescription}>
                     Adds this recording to your SmartVid editor
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.buttonWrap}>
-              <div
-                role="button"
-                className={styles.button}
-                onClick={runSaveToDrive}
-                aria-disabled={contentState.saveDrive}
-                disabled={contentState.saveDrive}
-              >
-                <div className={styles.buttonLeft}>
-                  <ReactSVG src={URL + "editor/icons/drive.svg"} />
-                </div>
-                <div className={styles.buttonMiddle}>
-                  <div className={styles.buttonTitle}>
-                    {contentState.saveDrive
-                      ? chrome.i18n.getMessage("savingDriveLabel")
-                      : contentState.driveEnabled
-                      ? chrome.i18n.getMessage("saveDriveButtonTitle")
-                      : chrome.i18n.getMessage("signInDriveLabel")}
-                  </div>
-                  <div className={styles.buttonDescription}>
-                    {contentState.offline
-                      ? chrome.i18n.getMessage("noConnectionLabel")
-                      : contentState.updateChrome
-                      ? chrome.i18n.getMessage("notAvailableLabel")
-                      : chrome.i18n.getMessage("saveDriveButtonDescription")}
-                  </div>
-                </div>
-                <div className={styles.buttonRight}>
-                  <ReactSVG src={URL + "editor/icons/right-arrow.svg"} />
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const PlayerNav = () => {
           aria-label="home"
           className={styles.navLeft}
         >
-          <img src={URL + "editor/logo.svg"} alt="Screenity Logo" />
+          <img src={URL + "editor/logo.svg"} alt="SmartVid Logo" />
         </div>
         <div className={styles.navRight}>
           <button
@@ -40,16 +40,6 @@ const PlayerNav = () => {
           >
             <ReactSVG src={StarIcon} />
             {chrome.i18n.getMessage("getHelpNav")}
-          </button>
-          <button
-            className="button primaryButton"
-            onClick={() => {
-              chrome.runtime.sendMessage({ type: "pricing" });
-            }}
-          >
-            <ReactSVG src={UnlockIcon} />{" "}
-            {chrome.i18n.getMessage("unlockMoreFeatures") ||
-              "Unlock more features"}
           </button>
         </div>
       </div>
