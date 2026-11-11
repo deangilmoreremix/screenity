@@ -68,6 +68,7 @@ const entryPoints = {
     "SmartVid",
     "bridgeContentScript.js"
   ),
+  web: path.join(__dirname, "src", "pages", "Web", "index.jsx"),
   recorder: path.join(__dirname, "src", "pages", "Recorder", "index.jsx"),
   recorderkeepalive: path.join(
     __dirname,
@@ -136,6 +137,11 @@ if (isBsBuild) {
   console.log(
     `[webpack] SCREENITY_BS_BUILD: dropped entries [${[...BS_DROPPED_ENTRIES].join(",")}]`,
   );
+}
+
+if (process.env.SCREENITY_ONLY) {
+  const keep = new Set(process.env.SCREENITY_ONLY.split(","));
+  for (const k of Object.keys(entryPoints)) if (!keep.has(k)) delete entryPoints[k];
 }
 
 const htmlPlugins = Object.keys(entryPoints)
@@ -242,6 +248,16 @@ const config = {
   },
   module: {
     rules: [
+      ...(process.env.SCREENITY_WEB_BUILD
+        ? [
+            {
+              test: /\.(jsx?|tsx?|s?css)$/,
+              enforce: "pre",
+              exclude: /node_modules/,
+              use: path.resolve(__dirname, "utils", "web-url-loader.js"),
+            },
+          ]
+        : []),
       {
         test: /\.(css|scss)$/,
         use: [
