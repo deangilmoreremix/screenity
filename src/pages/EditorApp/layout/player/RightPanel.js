@@ -327,6 +327,12 @@ const RightPanel = () => {
         mode: "screen",
       });
       setSmartvidStatus("sent");
+      // Web build: the recording is on the timeline now, so close this editor overlay.
+      if (chrome.runtime.id === "smartvid-web-recorder") {
+        setTimeout(() => {
+          chrome.tabs.getCurrent((t) => { if (t && t.id != null) chrome.tabs.remove(t.id); });
+        }, 900);
+      }
     } catch (err) {
       console.error("[SmartVid] send failed:", err);
       setSmartvidStatus("error");

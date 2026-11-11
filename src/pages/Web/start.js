@@ -13,7 +13,9 @@ window.__smartvidShowFrame = (frame, ctl) => {
   x.setAttribute("aria-label", "Close");
   x.style.cssText = "position:absolute;top:14px;right:18px;width:36px;height:36px;border-radius:50%;border:0;background:#fff;font-size:22px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3)";
   x.onclick = () => ctl.close();
-  frame.__smartvidClose = () => wrap.remove();
+  const tell = (open) => { if (window.parent !== window) window.parent.postMessage({ source: "smartvid-recorder", type: "overlay", open }, location.origin); };
+  frame.__smartvidClose = () => { wrap.remove(); tell(false); };
+  tell(true);
   wrap.append(frame, x);
   document.body.appendChild(wrap);
 };
